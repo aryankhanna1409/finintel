@@ -1,0 +1,52 @@
+[
+ {
+  "ticker": "TGT",
+  "issuer_cik": "27419",
+  "as_of": "2025-10-15",
+  "shares_outstanding": 455000000.0,
+  "insider_shares": 1200000.0,
+  "restricted_shares": 0.0,
+  "short_interest_shares": 11400000.0,
+  "avg_daily_volume": 6100000.0
+ },
+ {
+  "ticker": "WMT",
+  "issuer_cik": "104169",
+  "as_of": "2025-10-15",
+  "shares_outstanding": 7975000000.0,
+  "insider_shares": 3600000000.0,
+  "restricted_shares": 0.0,
+  "short_interest_shares": 45000000.0,
+  "avg_daily_volume": 17000000.0
+ },
+ {
+  "ticker": "COST",
+  "issuer_cik": "909832",
+  "as_of": "2025-10-15",
+  "shares_outstanding": 443500000.0,
+  "insider_shares": 1000000.0,
+  "restricted_shares": 0.0,
+  "short_interest_shares": 6200000.0,
+  "avg_daily_volume": 2100000.0
+ },
+ {
+  "ticker": "DG",
+  "issuer_cik": "29534",
+  "as_of": "2025-10-15",
+  "shares_outstanding": 220000000.0,
+  "insider_shares": 600000.0,
+  "restricted_shares": 0.0,
+  "short_interest_shares": 7900000.0,
+  "avg_daily_volume": 3400000.0
+ },
+ {
+  "ticker": "KR",
+  "issuer_cik": "56873",
+  "as_of": "2025-10-15",
+  "shares_outstanding": 662000000.0,
+  "insider_shares": 4000000.0,
+  "restricted_shares": 0.0,
+  "short_interest_shares": 19000000.0,
+  "avg_daily_volume": 6800000.0
+ }
+]

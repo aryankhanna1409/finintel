@@ -1,0 +1,67 @@
+[
+ {
+  "ticker": "TGT",
+  "issuer_cik": "27419",
+  "as_of": "2025-10-15",
+  "fiscal_year": 2025,
+  "eps_mean": 7.35,
+  "eps_high": 7.9,
+  "eps_low": 6.95,
+  "revenue_mean": 104200000000.0,
+  "num_analysts": 31,
+  "rating_mean": 2.9,
+  "price_target_mean": 104.0
+ },
+ {
+  "ticker": "WMT",
+  "issuer_cik": "104169",
+  "as_of": "2025-10-15",
+  "fiscal_year": 2026,
+  "eps_mean": 2.61,
+  "eps_high": 2.7,
+  "eps_low": 2.52,
+  "revenue_mean": 703000000000.0,
+  "num_analysts": 38,
+  "rating_mean": 1.6,
+  "price_target_mean": 112.0
+ },
+ {
+  "ticker": "COST",
+  "issuer_cik": "909832",
+  "as_of": "2025-10-15",
+  "fiscal_year": 2026,
+  "eps_mean": 19.9,
+  "eps_high": 20.6,
+  "eps_low": 19.1,
+  "revenue_mean": 275000000000.0,
+  "num_analysts": 30,
+  "rating_mean": 2.1,
+  "price_target_mean": 1060.0
+ },
+ {
+  "ticker": "DG",
+  "issuer_cik": "29534",
+  "as_of": "2025-10-15",
+  "fiscal_year": 2025,
+  "eps_mean": 6.05,
+  "eps_high": 6.4,
+  "eps_low": 5.7,
+  "revenue_mean": 42100000000.0,
+  "num_analysts": 26,
+  "rating_mean": 2.5,
+  "price_target_mean": 112.0
+ },
+ {
+  "ticker": "KR",
+  "issuer_cik": "56873",
+  "as_of": "2025-10-15",
+  "fiscal_year": 2025,
+  "eps_mean": 4.75,
+  "eps_high": 4.9,
+  "eps_low": 4.6,
+  "revenue_mean": 147500000000.0,
+  "num_analysts": 22,
+  "rating_mean": 2.3,
+  "price_target_mean": 72.0
+ }
+]

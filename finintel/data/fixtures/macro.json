@@ -1,0 +1,15 @@
+{
+ "as_of": "2025-10-15",
+ "risk_free_rate": 0.0405,
+ "equity_risk_premium": 0.05,
+ "marginal_tax_rate": 0.25,
+ "credit_spreads_bucket": {
+  "AAA": 0.004,
+  "AA": 0.005,
+  "A": 0.007,
+  "BBB": 0.01,
+  "BB": 0.018,
+  "B": 0.03,
+  "CCC": 0.085
+ }
+}

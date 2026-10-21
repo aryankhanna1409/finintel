@@ -1,0 +1,2975 @@
+{
+  "report_id": "11faf9477cbe",
+  "generated_at": "2026-10-21",
+  "as_of": "2025-10-15",
+  "target_ticker": "TGT",
+  "target_name": "Target Corporation",
+  "peers": [
+    "WMT",
+    "COST",
+    "DG",
+    "KR"
+  ],
+  "executive_summary": "Target Corporation trades at 6.1x EV/EBITDA versus a peer median of 15.3x (WMT, COST, DG, KR) [E1]. One-year TSR of -38% trails the peer median of 23% [E12], while the FCF yield of 10.9% is well above peers [E3]. Institutional money is rotating out of the stock and into peers with lighter risk disclosure [E41]. The activist vulnerability score is 61.7/100 (high) [E40]. Insiders are buying in the open market [E38], and the capital-return model favors repurchases over a special dividend [E39]. Leverage should stay near current levels because the rating commitment is the binding constraint [E37]. The priority is to resume buybacks, address the top investor concerns with hard KPIs on the next call, and pre-empt activist pressure with a dated investor day.",
+  "key_findings": [
+    "Valuation: EV/EBITDA 6.1x vs peer median 15.3x; P/E 10.2x vs 31.6x [E1, E2].",
+    "Shareholder yield 7.5% vs peer median 2.2%; dividend yield 5.1% [E5, E4].",
+    "Working capital: DIO 61 days vs peer median 35; cash conversion cycle 1.2 days [E11, E10].",
+    "Largest rotation: Halcyon Ridge Capital (synthetic) moved $0.26bn from TGT into COST; the target's risk disclosure is heavier on CEO transition and strategy (new vs prior 10-K), brand and reputation (new vs prior 10-K), discretionary demand and traffic [E41].",
+    "Activist drivers: EV/EBITDA discount to peers, 1-year TSR lagging peers, leadership transition disclosed, activist/hedge-fund presence in a dispersed register; activists on the register: Granite Harbor Activist Partners (synthetic) [E40].",
+    "Top investor concerns: discretionary demand and traffic (severity 0.91); CEO transition and strategy (severity 0.75); brand and reputation (severity 0.63) [E15, E19, E26, E36]."
+  ],
+  "benchmark": {
+    "target_ticker": "TGT",
+    "peers": [
+      "WMT",
+      "COST",
+      "DG",
+      "KR"
+    ],
+    "statistics": [
+      {
+        "metric": "ev_to_ebitda",
+        "target_value": 6.098982098982099,
+        "peer_values": {
+          "WMT": 20.11741215944803,
+          "COST": 35.641685471272346,
+          "DG": 10.447521865889213,
+          "KR": 8.096325719960278
+        },
+        "peer_median": 15.282467012668622,
+        "peer_p25": 9.85972282940698,
+        "peer_p75": 23.99848048740411,
+        "z_score": -1.031,
+        "percentile_rank": 0.0,
+        "higher_is_better": true,
+        "as_of": "2025-10-15"
+      },
+      {
+        "metric": "pe",
+        "target_value": 10.15801354401806,
+        "peer_values": {
+          "WMT": 42.738589211618255,
+          "COST": 56.46135265700484,
+          "DG": 20.54794520547945,
+          "KR": 17.71117166212534
+        },
+        "peer_median": 31.643267208548853,
+        "peer_p25": 19.838751819640922,
+        "peer_p75": 46.1692800729649,
+        "z_score": -1.158,
+        "percentile_rank": 0.0,
+        "higher_is_better": true,
+        "as_of": "2025-10-15"
+      },
+      {
+        "metric": "fcf_yield",
+        "target_value": 0.1093040293040293,
+        "peer_values": {
+          "WMT": 0.01541224092278662,
+          "COST": 0.0159861095201635,
+          "DG": 0.0722943722943723,
+          "KR": 0.05112712061352545
+        },
+        "peer_median": 0.03355661506684447,
+        "peer_p25": 0.015842642370819282,
+        "peer_p75": 0.05641893353373716,
+        "z_score": 2.861,
+        "percentile_rank": 1.0,
+        "higher_is_better": false,
+        "as_of": "2025-10-15"
+      },
+      {
+        "metric": "dividend_yield",
+        "target_value": 0.050666666666666665,
+        "peer_values": {
+          "WMT": 0.009126213592233009,
+          "COST": 0.005561497326203209,
+          "DG": 0.022476190476190476,
+          "KR": 0.021538461538461538
+        },
+        "peer_median": 0.015332337565347274,
+        "peer_p25": 0.008235034525725559,
+        "peer_p75": 0.02177289377289377,
+        "z_score": 3.57,
+        "percentile_rank": 1.0,
+        "higher_is_better": false,
+        "as_of": "2025-10-15"
+      },
+      {
+        "metric": "shareholder_yield",
+        "target_value": 0.07455433455433455,
+        "peer_values": {
+          "WMT": 0.013612928751864138,
+          "COST": 0.02241527952782015,
+          "DG": 0.022467532467532466,
+          "KR": 0.13688124564257495
+        },
+        "peer_median": 0.022441405997676307,
+        "peer_p25": 0.020214691833831146,
+        "peer_p75": 0.05107096076129308,
+        "z_score": 7.939,
+        "percentile_rank": 0.75,
+        "higher_is_better": false,
+        "as_of": "2025-10-15"
+      },
+      {
+        "metric": "operating_margin",
+        "target_value": 0.052230542574554735,
+        "peer_values": {
+          "WMT": 0.04309639713062696,
+          "COST": 0.036490039417888566,
+          "DG": 0.0422042745986408,
+          "KR": 0.026161782997899716
+        },
+        "peer_median": 0.03934715700826468,
+        "peer_p25": 0.03390797531289135,
+        "peer_p75": 0.04242730523163734,
+        "z_score": 2.631,
+        "percentile_rank": 1.0,
+        "higher_is_better": true,
+        "as_of": "2025-10-15"
+      },
+      {
+        "metric": "roic",
+        "target_value": 0.16731392768072395,
+        "peer_values": {
+          "WMT": 0.18586484533274594,
+          "COST": 0.3580713657318392,
+          "DG": 0.10235231170518712,
+          "KR": 0.1395987119269016
+        },
+        "peer_median": 0.16273177862982377,
+        "peer_p25": 0.130287111871473,
+        "peer_p75": 0.22891647543251925,
+        "z_score": 0.074,
+        "percentile_rank": 0.5,
+        "higher_is_better": true,
+        "as_of": "2025-10-15"
+      },
+      {
+        "metric": "net_debt_to_ebitda",
+        "target_value": 1.3078273078273077,
+        "peer_values": {
+          "WMT": 0.7080172963776848,
+          "COST": -0.3479430654400278,
+          "DG": 2.0291545189504374,
+          "KR": 1.9919137466307277
+        },
+        "peer_median": 1.3499655215042063,
+        "peer_p25": 0.4440272059232568,
+        "peer_p75": 2.001223939710655,
+        "z_score": -0.043,
+        "percentile_rank": 0.5,
+        "higher_is_better": false,
+        "as_of": "2025-10-15"
+      },
+      {
+        "metric": "interest_coverage",
+        "target_value": 13.54257907542579,
+        "peer_values": {
+          "WMT": 10.758064516129032,
+          "COST": 54.94082840236686,
+          "DG": 6.056537102473499,
+          "KR": 6.208064516129032
+        },
+        "peer_median": 8.483064516129032,
+        "peer_p25": 6.170182662715149,
+        "peer_p75": 21.80375548768849,
+        "z_score": 1.452,
+        "percentile_rank": 0.75,
+        "higher_is_better": true,
+        "as_of": "2025-10-15"
+      },
+      {
+        "metric": "cash_conversion_cycle",
+        "target_value": 1.246726305393004,
+        "peer_values": {
+          "WMT": 3.755256775810217,
+          "COST": 3.3240233045165013,
+          "DG": 43.45328611602958,
+          "KR": -6.224680230808222
+        },
+        "peer_median": 3.539640040163359,
+        "peer_p25": 0.9368474206853206,
+        "peer_p75": 13.679764110865058,
+        "z_score": -0.31,
+        "percentile_rank": 0.25,
+        "higher_is_better": false,
+        "as_of": "2025-10-15"
+      },
+      {
+        "metric": "dio",
+        "target_value": 60.78403179001856,
+        "peer_values": {
+          "WMT": 40.25140057801322,
+          "COST": 30.608995403808272,
+          "DG": 86.89389994097837,
+          "KR": 22.373029772329247
+        },
+        "peer_median": 35.43019799091074,
+        "peer_p25": 28.550003995938518,
+        "peer_p75": 51.91202541875451,
+        "z_score": 1.913,
+        "percentile_rank": 0.75,
+        "higher_is_better": false,
+        "as_of": "2025-10-15"
+      },
+      {
+        "metric": "tsr_1y",
+        "target_value": -0.38,
+        "peer_values": {
+          "WMT": 0.28,
+          "COST": 0.05,
+          "DG": 0.3,
+          "KR": 0.18
+        },
+        "peer_median": 0.23,
+        "peer_p25": 0.14750000000000002,
+        "peer_p75": 0.28500000000000003,
+        "z_score": -6.857,
+        "percentile_rank": 0.0,
+        "higher_is_better": true,
+        "as_of": "2025-10-15"
+      },
+      {
+        "metric": "tsr_3y",
+        "target_value": -0.36,
+        "peer_values": {
+          "WMT": 1.25,
+          "COST": 0.95,
+          "DG": -0.52,
+          "KR": 0.55
+        },
+        "peer_median": 0.75,
+        "peer_p25": 0.2825,
+        "peer_p75": 1.025,
+        "z_score": -2.139,
+        "percentile_rank": 0.25,
+        "higher_is_better": true,
+        "as_of": "2025-10-15"
+      },
+      {
+        "metric": "debt_to_capital_market",
+        "target_value": 0.28018984004218667,
+        "peer_values": {
+          "WMT": 0.045327547052274104,
+          "COST": 0.014021463753315444,
+          "DG": 0.2195945945945946,
+          "KR": 0.2949369162706865
+        },
+        "peer_median": 0.13246107082343436,
+        "peer_p25": 0.03750102622753444,
+        "peer_p75": 0.23843017501361757,
+        "z_score": 0.969,
+        "percentile_rank": 0.75,
+        "higher_is_better": false,
+        "as_of": "2025-10-15"
+      }
+    ]
+  },
+  "ownership": {
+    "TGT": {
+      "issuer_cik": "0000027419",
+      "report_period": "2025-06-30",
+      "holders": 11,
+      "institutional_shares": 127855000.0,
+      "institutional_pct_outstanding": 0.281,
+      "hhi": 2284.292245538937,
+      "top10_pct_institutional": 0.99644128113879,
+      "activist_pct_outstanding": 0.012,
+      "index_pct_outstanding": 0.219
+    },
+    "WMT": {
+      "issuer_cik": "0000104169",
+      "report_period": "2025-06-30",
+      "holders": 9,
+      "institutional_shares": 1161450000.0,
+      "institutional_pct_outstanding": 0.14563636363636365,
+      "hhi": 2562.1878715814505,
+      "top10_pct_institutional": 1.0,
+      "activist_pct_outstanding": 0.0,
+      "index_pct_outstanding": 0.11952225705329153
+    },
+    "COST": {
+      "issuer_cik": "0000909832",
+      "report_period": "2025-06-30",
+      "holders": 9,
+      "institutional_shares": 113536000.0,
+      "institutional_pct_outstanding": 0.256,
+      "hhi": 2469.482421875,
+      "top10_pct_institutional": 1.0,
+      "activist_pct_outstanding": 0.0,
+      "index_pct_outstanding": 0.206
+    },
+    "DG": {
+      "issuer_cik": "0000029534",
+      "report_period": "2025-06-30",
+      "holders": 10,
+      "institutional_shares": 62700000.0,
+      "institutional_pct_outstanding": 0.285,
+      "hhi": 2529.3936595875653,
+      "top10_pct_institutional": 1.0,
+      "activist_pct_outstanding": 0.0,
+      "index_pct_outstanding": 0.235
+    },
+    "KR": {
+      "issuer_cik": "0000056873",
+      "report_period": "2025-06-30",
+      "holders": 10,
+      "institutional_shares": 180064000.0,
+      "institutional_pct_outstanding": 0.272,
+      "hhi": 2491.079152249135,
+      "top10_pct_institutional": 1.0,
+      "activist_pct_outstanding": 0.0,
+      "index_pct_outstanding": 0.223
+    }
+  },
+  "capital_rotation": [
+    {
+      "filer_cik": "9900000006",
+      "filer_name": "Halcyon Ridge Capital (synthetic)",
+      "institution_type": "hedge_fund",
+      "source_cik": "0000027419",
+      "source_ticker": "TGT",
+      "destination_cik": "0000909832",
+      "destination_ticker": "COST",
+      "period_from": "2025-03-31",
+      "period_to": "2025-06-30",
+      "source_value_change_usd": -427518000.0,
+      "destination_value_change_usd": 1317061950.0,
+      "rotation_usd": 262147347.75910863,
+      "rotation_intensity": 0.1038277427284134,
+      "risk_discrepancies": [
+        {
+          "theme": "leadership_transition",
+          "source_intensity": 0.1765,
+          "destination_intensity": 0.0,
+          "gap": 0.1765,
+          "new_in_source": true,
+          "evidence_chunk_ids": [
+            "5e1cb808e54c62bb",
+            "3f660eef91c9f391"
+          ]
+        },
+        {
+          "theme": "brand_reputation",
+          "source_intensity": 0.1176,
+          "destination_intensity": 0.0,
+          "gap": 0.1176,
+          "new_in_source": true,
+          "evidence_chunk_ids": [
+            "32f496cb0987d683"
+          ]
+        },
+        {
+          "theme": "discretionary_demand",
+          "source_intensity": 0.2941,
+          "destination_intensity": 0.0,
+          "gap": 0.2941,
+          "new_in_source": false,
+          "evidence_chunk_ids": [
+            "4b71c2546de621d1",
+            "32f496cb0987d683",
+            "a62c87e135682050"
+          ]
+        },
+        {
+          "theme": "inventory_markdowns",
+          "source_intensity": 0.1176,
+          "destination_intensity": 0.0,
+          "gap": 0.1176,
+          "new_in_source": false,
+          "evidence_chunk_ids": [
+            "0f40625ccb997341",
+            "a62c87e135682050"
+          ]
+        },
+        {
+          "theme": "shrink_theft",
+          "source_intensity": 0.1176,
+          "destination_intensity": 0.0,
+          "gap": 0.1176,
+          "new_in_source": false,
+          "evidence_chunk_ids": [
+            "0f40625ccb997341"
+          ]
+        }
+      ]
+    },
+    {
+      "filer_cik": "9900000005",
+      "filer_name": "Summit Growth Partners (synthetic)",
+      "institution_type": "active_manager",
+      "source_cik": "0000027419",
+      "source_ticker": "TGT",
+      "destination_cik": "0000104169",
+      "destination_ticker": "WMT",
+      "period_from": "2025-03-31",
+      "period_to": "2025-06-30",
+      "source_value_change_usd": -314359500.0,
+      "destination_value_change_usd": 1566756000.0,
+      "rotation_usd": 170789086.31593752,
+      "rotation_intensity": 0.02777624678526931,
+      "risk_discrepancies": [
+        {
+          "theme": "leadership_transition",
+          "source_intensity": 0.1765,
+          "destination_intensity": 0.0,
+          "gap": 0.1765,
+          "new_in_source": true,
+          "evidence_chunk_ids": [
+            "5e1cb808e54c62bb",
+            "3f660eef91c9f391"
+          ]
+        },
+        {
+          "theme": "brand_reputation",
+          "source_intensity": 0.1176,
+          "destination_intensity": 0.0,
+          "gap": 0.1176,
+          "new_in_source": true,
+          "evidence_chunk_ids": [
+            "32f496cb0987d683"
+          ]
+        },
+        {
+          "theme": "discretionary_demand",
+          "source_intensity": 0.2941,
+          "destination_intensity": 0.0,
+          "gap": 0.2941,
+          "new_in_source": false,
+          "evidence_chunk_ids": [
+            "4b71c2546de621d1",
+            "32f496cb0987d683",
+            "a62c87e135682050"
+          ]
+        },
+        {
+          "theme": "inventory_markdowns",
+          "source_intensity": 0.1176,
+          "destination_intensity": 0.0,
+          "gap": 0.1176,
+          "new_in_source": false,
+          "evidence_chunk_ids": [
+            "0f40625ccb997341",
+            "a62c87e135682050"
+          ]
+        },
+        {
+          "theme": "shrink_theft",
+          "source_intensity": 0.1176,
+          "destination_intensity": 0.0,
+          "gap": 0.1176,
+          "new_in_source": false,
+          "evidence_chunk_ids": [
+            "0f40625ccb997341"
+          ]
+        }
+      ]
+    },
+    {
+      "filer_cik": "9900000006",
+      "filer_name": "Halcyon Ridge Capital (synthetic)",
+      "institution_type": "hedge_fund",
+      "source_cik": "0000027419",
+      "source_ticker": "TGT",
+      "destination_cik": "0000104169",
+      "destination_ticker": "WMT",
+      "period_from": "2025-03-31",
+      "period_to": "2025-06-30",
+      "source_value_change_usd": -427518000.0,
+      "destination_value_change_usd": 783378000.0,
+      "rotation_usd": 155923162.91032097,
+      "rotation_intensity": 0.061451136030917654,
+      "risk_discrepancies": [
+        {
+          "theme": "leadership_transition",
+          "source_intensity": 0.1765,
+          "destination_intensity": 0.0,
+          "gap": 0.1765,
+          "new_in_source": true,
+          "evidence_chunk_ids": [
+            "5e1cb808e54c62bb",
+            "3f660eef91c9f391"
+          ]
+        },
+        {
+          "theme": "brand_reputation",
+          "source_intensity": 0.1176,
+          "destination_intensity": 0.0,
+          "gap": 0.1176,
+          "new_in_source": true,
+          "evidence_chunk_ids": [
+            "32f496cb0987d683"
+          ]
+        },
+        {
+          "theme": "discretionary_demand",
+          "source_intensity": 0.2941,
+          "destination_intensity": 0.0,
+          "gap": 0.2941,
+          "new_in_source": false,
+          "evidence_chunk_ids": [
+            "4b71c2546de621d1",
+            "32f496cb0987d683",
+            "a62c87e135682050"
+          ]
+        },
+        {
+          "theme": "inventory_markdowns",
+          "source_intensity": 0.1176,
+          "destination_intensity": 0.0,
+          "gap": 0.1176,
+          "new_in_source": false,
+          "evidence_chunk_ids": [
+            "0f40625ccb997341",
+            "a62c87e135682050"
+          ]
+        },
+        {
+          "theme": "shrink_theft",
+          "source_intensity": 0.1176,
+          "destination_intensity": 0.0,
+          "gap": 0.1176,
+          "new_in_source": false,
+          "evidence_chunk_ids": [
+            "0f40625ccb997341"
+          ]
+        }
+      ]
+    },
+    {
+      "filer_cik": "9900000005",
+      "filer_name": "Summit Growth Partners (synthetic)",
+      "institution_type": "active_manager",
+      "source_cik": "0000027419",
+      "source_ticker": "TGT",
+      "destination_cik": "0000909832",
+      "destination_ticker": "COST",
+      "period_from": "2025-03-31",
+      "period_to": "2025-06-30",
+      "source_value_change_usd": -314359500.0,
+      "destination_value_change_usd": 1317061950.0,
+      "rotation_usd": 143570413.68406248,
+      "rotation_intensity": 0.014724124692851304,
+      "risk_discrepancies": [
+        {
+          "theme": "leadership_transition",
+          "source_intensity": 0.1765,
+          "destination_intensity": 0.0,
+          "gap": 0.1765,
+          "new_in_source": true,
+          "evidence_chunk_ids": [
+            "5e1cb808e54c62bb",
+            "3f660eef91c9f391"
+          ]
+        },
+        {
+          "theme": "brand_reputation",
+          "source_intensity": 0.1176,
+          "destination_intensity": 0.0,
+          "gap": 0.1176,
+          "new_in_source": true,
+          "evidence_chunk_ids": [
+            "32f496cb0987d683"
+          ]
+        },
+        {
+          "theme": "discretionary_demand",
+          "source_intensity": 0.2941,
+          "destination_intensity": 0.0,
+          "gap": 0.2941,
+          "new_in_source": false,
+          "evidence_chunk_ids": [
+            "4b71c2546de621d1",
+            "32f496cb0987d683",
+            "a62c87e135682050"
+          ]
+        },
+        {
+          "theme": "inventory_markdowns",
+          "source_intensity": 0.1176,
+          "destination_intensity": 0.0,
+          "gap": 0.1176,
+          "new_in_source": false,
+          "evidence_chunk_ids": [
+            "0f40625ccb997341",
+            "a62c87e135682050"
+          ]
+        },
+        {
+          "theme": "shrink_theft",
+          "source_intensity": 0.1176,
+          "destination_intensity": 0.0,
+          "gap": 0.1176,
+          "new_in_source": false,
+          "evidence_chunk_ids": [
+            "0f40625ccb997341"
+          ]
+        }
+      ]
+    },
+    {
+      "filer_cik": "9900000007",
+      "filer_name": "Vector Quant Strategies (synthetic)",
+      "institution_type": "hedge_fund",
+      "source_cik": "0000027419",
+      "source_ticker": "TGT",
+      "destination_cik": "0000029534",
+      "destination_ticker": "DG",
+      "period_from": "2025-03-31",
+      "period_to": "2025-06-30",
+      "source_value_change_usd": -134725500.0,
+      "destination_value_change_usd": 125840000.0,
+      "rotation_usd": 97826478.11320363,
+      "rotation_intensity": 0.31965676624058487,
+      "risk_discrepancies": [
+        {
+          "theme": "leadership_transition",
+          "source_intensity": 0.1765,
+          "destination_intensity": 0.0,
+          "gap": 0.1765,
+          "new_in_source": true,
+          "evidence_chunk_ids": [
+            "5e1cb808e54c62bb",
+            "3f660eef91c9f391"
+          ]
+        },
+        {
+          "theme": "cybersecurity",
+          "source_intensity": 0.0588,
+          "destination_intensity": 0.0,
+          "gap": 0.0588,
+          "new_in_source": false,
+          "evidence_chunk_ids": [
+            "a62c87e135682050"
+          ]
+        }
+      ]
+    },
+    {
+      "filer_cik": "9900000007",
+      "filer_name": "Vector Quant Strategies (synthetic)",
+      "institution_type": "hedge_fund",
+      "source_cik": "0000027419",
+      "source_ticker": "TGT",
+      "destination_cik": "0000056873",
+      "destination_ticker": "KR",
+      "period_from": "2025-03-31",
+      "period_to": "2025-06-30",
+      "source_value_change_usd": -134725500.0,
+      "destination_value_change_usd": 47465400.0,
+      "rotation_usd": 36899021.88679637,
+      "rotation_intensity": 0.09992217748056305,
+      "risk_discrepancies": [
+        {
+          "theme": "tariffs_trade",
+          "source_intensity": 0.1765,
+          "destination_intensity": 0.0,
+          "gap": 0.1765,
+          "new_in_source": true,
+          "evidence_chunk_ids": [
+            "a515c787c78bc3d9",
+            "3f660eef91c9f391"
+          ]
+        },
+        {
+          "theme": "leadership_transition",
+          "source_intensity": 0.1765,
+          "destination_intensity": 0.0,
+          "gap": 0.1765,
+          "new_in_source": true,
+          "evidence_chunk_ids": [
+            "5e1cb808e54c62bb",
+            "3f660eef91c9f391"
+          ]
+        },
+        {
+          "theme": "brand_reputation",
+          "source_intensity": 0.1176,
+          "destination_intensity": 0.0,
+          "gap": 0.1176,
+          "new_in_source": true,
+          "evidence_chunk_ids": [
+            "32f496cb0987d683"
+          ]
+        },
+        {
+          "theme": "discretionary_demand",
+          "source_intensity": 0.2941,
+          "destination_intensity": 0.0,
+          "gap": 0.2941,
+          "new_in_source": false,
+          "evidence_chunk_ids": [
+            "4b71c2546de621d1",
+            "32f496cb0987d683",
+            "a62c87e135682050"
+          ]
+        },
+        {
+          "theme": "inventory_markdowns",
+          "source_intensity": 0.1176,
+          "destination_intensity": 0.0,
+          "gap": 0.1176,
+          "new_in_source": false,
+          "evidence_chunk_ids": [
+            "0f40625ccb997341",
+            "a62c87e135682050"
+          ]
+        },
+        {
+          "theme": "shrink_theft",
+          "source_intensity": 0.1176,
+          "destination_intensity": 0.0,
+          "gap": 0.1176,
+          "new_in_source": false,
+          "evidence_chunk_ids": [
+            "0f40625ccb997341"
+          ]
+        },
+        {
+          "theme": "cybersecurity",
+          "source_intensity": 0.0588,
+          "destination_intensity": 0.0,
+          "gap": 0.0588,
+          "new_in_source": false,
+          "evidence_chunk_ids": [
+            "a62c87e135682050"
+          ]
+        }
+      ]
+    },
+    {
+      "filer_cik": "9900000004",
+      "filer_name": "Lakeshore Fundamental Equity (synthetic)",
+      "institution_type": "active_manager",
+      "source_cik": "0000027419",
+      "source_ticker": "TGT",
+      "destination_cik": "0000029534",
+      "destination_ticker": "DG",
+      "period_from": "2025-03-31",
+      "period_to": "2025-06-30",
+      "source_value_change_usd": -44908500.0,
+      "destination_value_change_usd": 25168000.0,
+      "rotation_usd": 25168000.0,
+      "rotation_intensity": 0.020440450781460655,
+      "risk_discrepancies": [
+        {
+          "theme": "leadership_transition",
+          "source_intensity": 0.1765,
+          "destination_intensity": 0.0,
+          "gap": 0.1765,
+          "new_in_source": true,
+          "evidence_chunk_ids": [
+            "5e1cb808e54c62bb",
+            "3f660eef91c9f391"
+          ]
+        },
+        {
+          "theme": "cybersecurity",
+          "source_intensity": 0.0588,
+          "destination_intensity": 0.0,
+          "gap": 0.0588,
+          "new_in_source": false,
+          "evidence_chunk_ids": [
+            "a62c87e135682050"
+          ]
+        }
+      ]
+    }
+  ],
+  "activist_vulnerability": {
+    "TGT": {
+      "issuer_cik": "0000027419",
+      "ticker": "TGT",
+      "score": 61.7,
+      "band": "high",
+      "components": {
+        "valuation_discount": 1.0,
+        "tsr_underperformance": 1.0,
+        "working_capital_gap": 0.384,
+        "yield_and_payout_gap": 0.0,
+        "balance_sheet_slack": 0.028,
+        "margin_gap": 0.0,
+        "register_vulnerability": 0.54,
+        "governance_transition": 1.0
+      },
+      "raw_inputs": {
+        "ev_to_ebitda": 6.098982098982099,
+        "peer_ev_to_ebitda_median": 15.282467012668622,
+        "tsr_1y": -0.38,
+        "peer_tsr_1y_median": 0.23,
+        "ccc_days": 1.246726305393004,
+        "peer_ccc_median": 3.539640040163359,
+        "dio_days": 60.78403179001856,
+        "peer_dio_median": 35.43019799091074,
+        "dividend_yield": 0.050666666666666665,
+        "peer_dividend_yield_median": 0.015332337565347274,
+        "shareholder_yield": 0.07455433455433455,
+        "peer_shareholder_yield_median": 0.022441405997676307,
+        "net_debt_to_ebitda": 1.3078273078273077,
+        "peer_net_debt_to_ebitda_median": 1.3499655215042063,
+        "operating_margin": 0.052230542574554735,
+        "peer_operating_margin_median": 0.03934715700826468,
+        "register_hhi": 2284.292245538937,
+        "activist_pct_outstanding": 0.012,
+        "hedge_fund_pct_outstanding": 0.003
+      },
+      "activists_present": [
+        "Granite Harbor Activist Partners (synthetic)"
+      ],
+      "narrative_drivers": [
+        "EV/EBITDA discount to peers",
+        "1-year TSR lagging peers",
+        "leadership transition disclosed",
+        "activist/hedge-fund presence in a dispersed register"
+      ]
+    },
+    "WMT": {
+      "issuer_cik": "0000104169",
+      "ticker": "WMT",
+      "score": 14.0,
+      "band": "low",
+      "components": {
+        "valuation_discount": 0.0,
+        "tsr_underperformance": 0.0,
+        "working_capital_gap": 0.0,
+        "yield_and_payout_gap": 0.872,
+        "balance_sheet_slack": 0.628,
+        "margin_gap": 0.0,
+        "register_vulnerability": 0.05,
+        "governance_transition": 0.0
+      },
+      "raw_inputs": {
+        "ev_to_ebitda": 20.11741215944803,
+        "peer_ev_to_ebitda_median": 9.271923792924746,
+        "tsr_1y": 0.28,
+        "peer_tsr_1y_median": 0.11499999999999999,
+        "ccc_days": 3.755256775810217,
+        "peer_ccc_median": 2.2853748049547526,
+        "dio_days": 40.25140057801322,
+        "peer_dio_median": 45.69651359691342,
+        "dividend_yield": 0.009126213592233009,
+        "peer_dividend_yield_median": 0.02200732600732601,
+        "shareholder_yield": 0.013612928751864138,
+        "peer_shareholder_yield_median": 0.04851093351093351,
+        "net_debt_to_ebitda": 0.7080172963776848,
+        "peer_net_debt_to_ebitda_median": 1.6498705272290177,
+        "operating_margin": 0.04309639713062696,
+        "peer_operating_margin_median": 0.03934715700826468,
+        "register_hhi": 2562.1878715814505,
+        "activist_pct_outstanding": 0.0,
+        "hedge_fund_pct_outstanding": 0.0050219435736677115
+      },
+      "activists_present": [],
+      "narrative_drivers": [
+        "capital-return mix gap vs peers",
+        "unused leverage capacity vs peers"
+      ]
+    },
+    "COST": {
+      "issuer_cik": "0000909832",
+      "ticker": "COST",
+      "score": 25.3,
+      "band": "low",
+      "components": {
+        "valuation_discount": 0.0,
+        "tsr_underperformance": 0.36,
+        "working_capital_gap": 0.0,
+        "yield_and_payout_gap": 0.652,
+        "balance_sheet_slack": 1.0,
+        "margin_gap": 0.205,
+        "register_vulnerability": 0.09,
+        "governance_transition": 0.0
+      },
+      "raw_inputs": {
+        "ev_to_ebitda": 35.641685471272346,
+        "peer_ev_to_ebitda_median": 9.271923792924746,
+        "tsr_1y": 0.05,
+        "peer_tsr_1y_median": 0.23,
+        "ccc_days": 3.3240233045165013,
+        "peer_ccc_median": 2.5009915406016106,
+        "dio_days": 30.608995403808272,
+        "peer_dio_median": 50.51771618401589,
+        "dividend_yield": 0.005561497326203209,
+        "peer_dividend_yield_median": 0.02200732600732601,
+        "shareholder_yield": 0.02241527952782015,
+        "peer_shareholder_yield_median": 0.04851093351093351,
+        "net_debt_to_ebitda": -0.3479430654400278,
+        "peer_net_debt_to_ebitda_median": 1.6498705272290177,
+        "operating_margin": 0.036490039417888566,
+        "peer_operating_margin_median": 0.042650335864633876,
+        "register_hhi": 2469.482421875,
+        "activist_pct_outstanding": 0.0,
+        "hedge_fund_pct_outstanding": 0.009000000000000001
+      },
+      "activists_present": [],
+      "narrative_drivers": [
+        "unused leverage capacity vs peers",
+        "1-year TSR lagging peers",
+        "capital-return mix gap vs peers"
+      ]
+    },
+    "DG": {
+      "issuer_cik": "0000029534",
+      "ticker": "DG",
+      "score": 28.7,
+      "band": "low",
+      "components": {
+        "valuation_discount": 0.519,
+        "tsr_underperformance": 0.0,
+        "working_capital_gap": 1.0,
+        "yield_and_payout_gap": 0.65,
+        "balance_sheet_slack": 0.0,
+        "margin_gap": 0.0,
+        "register_vulnerability": 0.15,
+        "governance_transition": 0.0
+      },
+      "raw_inputs": {
+        "ev_to_ebitda": 10.447521865889213,
+        "peer_ev_to_ebitda_median": 14.106868939704153,
+        "tsr_1y": 0.3,
+        "peer_tsr_1y_median": 0.11499999999999999,
+        "ccc_days": 43.45328611602958,
+        "peer_ccc_median": 2.2853748049547526,
+        "dio_days": 86.89389994097837,
+        "peer_dio_median": 35.43019799091074,
+        "dividend_yield": 0.022476190476190476,
+        "peer_dividend_yield_median": 0.015332337565347274,
+        "shareholder_yield": 0.022467532467532466,
+        "peer_shareholder_yield_median": 0.04848480704107735,
+        "net_debt_to_ebitda": 2.0291545189504374,
+        "peer_net_debt_to_ebitda_median": 1.0079223021024963,
+        "operating_margin": 0.0422042745986408,
+        "peer_operating_margin_median": 0.03979321827425776,
+        "register_hhi": 2529.3936595875653,
+        "activist_pct_outstanding": 0.0,
+        "hedge_fund_pct_outstanding": 0.015
+      },
+      "activists_present": [],
+      "narrative_drivers": [
+        "EV/EBITDA discount to peers",
+        "inventory days / cash conversion cycle above peers",
+        "capital-return mix gap vs peers"
+      ]
+    },
+    "KR": {
+      "issuer_cik": "0000056873",
+      "ticker": "KR",
+      "score": 26.3,
+      "band": "low",
+      "components": {
+        "valuation_discount": 0.94,
+        "tsr_underperformance": 0.0,
+        "working_capital_gap": 0.0,
+        "yield_and_payout_gap": 0.0,
+        "balance_sheet_slack": 0.0,
+        "margin_gap": 0.55,
+        "register_vulnerability": 0.09,
+        "governance_transition": 0.0
+      },
+      "raw_inputs": {
+        "ev_to_ebitda": 8.096325719960278,
+        "peer_ev_to_ebitda_median": 15.282467012668622,
+        "tsr_1y": 0.18,
+        "peer_tsr_1y_median": 0.165,
+        "ccc_days": -6.224680230808222,
+        "peer_ccc_median": 3.539640040163359,
+        "dio_days": 22.373029772329247,
+        "peer_dio_median": 50.51771618401589,
+        "dividend_yield": 0.021538461538461538,
+        "peer_dividend_yield_median": 0.01580120203421174,
+        "shareholder_yield": 0.13688124564257495,
+        "peer_shareholder_yield_median": 0.022441405997676307,
+        "net_debt_to_ebitda": 1.9919137466307277,
+        "peer_net_debt_to_ebitda_median": 1.0079223021024963,
+        "operating_margin": 0.026161782997899716,
+        "peer_operating_margin_median": 0.042650335864633876,
+        "register_hhi": 2491.079152249135,
+        "activist_pct_outstanding": 0.0,
+        "hedge_fund_pct_outstanding": 0.009000000000000001
+      },
+      "activists_present": [],
+      "narrative_drivers": [
+        "EV/EBITDA discount to peers",
+        "operating margin below peers"
+      ]
+    }
+  },
+  "common_ownership": [
+    {
+      "company_a": "WMT",
+      "company_b": "COST",
+      "overlap_cosine": 0.9783,
+      "shared_holders": 6,
+      "top_shared": [
+        "Summit Growth Partners (synthetic)",
+        "Halcyon Ridge Capital (synthetic)",
+        "Atlas Sovereign Wealth (synthetic)"
+      ]
+    },
+    {
+      "company_a": "DG",
+      "company_b": "KR",
+      "overlap_cosine": 0.9189,
+      "shared_holders": 6,
+      "top_shared": [
+        "Lakeshore Fundamental Equity (synthetic)",
+        "Vector Quant Strategies (synthetic)",
+        "Northgate Dividend Income (synthetic)"
+      ]
+    },
+    {
+      "company_a": "TGT",
+      "company_b": "KR",
+      "overlap_cosine": 0.8469,
+      "shared_holders": 6,
+      "top_shared": [
+        "Lakeshore Fundamental Equity (synthetic)",
+        "Northgate Dividend Income (synthetic)",
+        "Atlas Sovereign Wealth (synthetic)"
+      ]
+    },
+    {
+      "company_a": "TGT",
+      "company_b": "DG",
+      "overlap_cosine": 0.7496,
+      "shared_holders": 7,
+      "top_shared": [
+        "Lakeshore Fundamental Equity (synthetic)",
+        "Northgate Dividend Income (synthetic)",
+        "Pinecrest Teachers Retirement (synthetic)"
+      ]
+    },
+    {
+      "company_a": "WMT",
+      "company_b": "KR",
+      "overlap_cosine": 0.5218,
+      "shared_holders": 6,
+      "top_shared": [
+        "Lakeshore Fundamental Equity (synthetic)",
+        "Summit Growth Partners (synthetic)",
+        "Atlas Sovereign Wealth (synthetic)"
+      ]
+    },
+    {
+      "company_a": "WMT",
+      "company_b": "DG",
+      "overlap_cosine": 0.4948,
+      "shared_holders": 5,
+      "top_shared": [
+        "Lakeshore Fundamental Equity (synthetic)",
+        "Summit Growth Partners (synthetic)",
+        "Atlas Sovereign Wealth (synthetic)"
+      ]
+    },
+    {
+      "company_a": "TGT",
+      "company_b": "WMT",
+      "overlap_cosine": 0.4427,
+      "shared_holders": 5,
+      "top_shared": [
+        "Lakeshore Fundamental Equity (synthetic)",
+        "Summit Growth Partners (synthetic)",
+        "Atlas Sovereign Wealth (synthetic)"
+      ]
+    },
+    {
+      "company_a": "COST",
+      "company_b": "KR",
+      "overlap_cosine": 0.3883,
+      "shared_holders": 6,
+      "top_shared": [
+        "Lakeshore Fundamental Equity (synthetic)",
+        "Summit Growth Partners (synthetic)",
+        "Halcyon Ridge Capital (synthetic)"
+      ]
+    },
+    {
+      "company_a": "COST",
+      "company_b": "DG",
+      "overlap_cosine": 0.3686,
+      "shared_holders": 5,
+      "top_shared": [
+        "Lakeshore Fundamental Equity (synthetic)",
+        "Summit Growth Partners (synthetic)",
+        "Atlas Sovereign Wealth (synthetic)"
+      ]
+    },
+    {
+      "company_a": "TGT",
+      "company_b": "COST",
+      "overlap_cosine": 0.3478,
+      "shared_holders": 5,
+      "top_shared": [
+        "Lakeshore Fundamental Equity (synthetic)",
+        "Summit Growth Partners (synthetic)",
+        "Atlas Sovereign Wealth (synthetic)"
+      ]
+    }
+  ],
+  "supply_chain": {
+    "issuer_cik": "0000027419",
+    "ticker": "TGT",
+    "upstream_suppliers": [
+      "KMB",
+      "PEP",
+      "PG"
+    ],
+    "shared_suppliers_with_peers": {
+      "WMT": [
+        "KMB",
+        "PEP",
+        "PG"
+      ],
+      "COST": [
+        "KMB",
+        "PG"
+      ],
+      "DG": [
+        "PG"
+      ],
+      "KR": [
+        "PEP",
+        "PG"
+      ]
+    },
+    "concentration_note": "KMB's largest disclosed customer in the set is WMT (~14% of its revenue); PEP's largest disclosed customer in the set is WMT (~14% of its revenue); PG's largest disclosed customer in the set is WMT (~15% of its revenue)"
+  },
+  "capital_structure": {
+    "current_debt_to_capital": 0.28018984004218667,
+    "current_wacc": 0.07872363332747408,
+    "current_implied_rating": "A",
+    "actual_rating": "A",
+    "optimal_debt_to_capital": 0.3,
+    "optimal_wacc": 0.07841622129288346,
+    "optimal_rating": "A",
+    "wacc_curve": [
+      {
+        "debt_to_capital": 0.0,
+        "implied_rating": "AA-",
+        "pre_tax_cost_of_debt": 0.04609344471040699,
+        "levered_beta": 0.851431811738021,
+        "cost_of_equity": 0.08307159058690106,
+        "wacc": 0.08307159058690106,
+        "interest_coverage": null
+      },
+      {
+        "debt_to_capital": 0.05,
+        "implied_rating": "AA-",
+        "pre_tax_cost_of_debt": 0.04609344471040699,
+        "levered_beta": 0.8850409622013639,
+        "cost_of_equity": 0.0847520481100682,
+        "wacc": 0.08224294988120505,
+        "interest_coverage": 42.45199440725857
+      },
+      {
+        "debt_to_capital": 0.1,
+        "implied_rating": "AA-",
+        "pre_tax_cost_of_debt": 0.04609344471040699,
+        "levered_beta": 0.9223844627161893,
+        "cost_of_equity": 0.08661922313580947,
+        "wacc": 0.08141430917550906,
+        "interest_coverage": 21.225997203629284
+      },
+      {
+        "debt_to_capital": 0.15,
+        "implied_rating": "AA-",
+        "pre_tax_cost_of_debt": 0.04609344471040699,
+        "levered_beta": 0.964121316232759,
+        "cost_of_equity": 0.08870606581163795,
+        "wacc": 0.08058566846981305,
+        "interest_coverage": 14.15066480241952
+      },
+      {
+        "debt_to_capital": 0.2,
+        "implied_rating": "AA-",
+        "pre_tax_cost_of_debt": 0.04609344471040699,
+        "levered_beta": 1.0110752764389,
+        "cost_of_equity": 0.091053763821945,
+        "wacc": 0.07975702776411706,
+        "interest_coverage": 10.612998601814642
+      },
+      {
+        "debt_to_capital": 0.25,
+        "implied_rating": "A",
+        "pre_tax_cost_of_debt": 0.0475,
+        "levered_beta": 1.0642897646725262,
+        "cost_of_equity": 0.09371448823362633,
+        "wacc": 0.07919211617521975,
+        "interest_coverage": 8.238983819189388
+      },
+      {
+        "debt_to_capital": 0.3,
+        "implied_rating": "A",
+        "pre_tax_cost_of_debt": 0.0475,
+        "levered_beta": 1.1251063226538134,
+        "cost_of_equity": 0.09675531613269067,
+        "wacc": 0.07841622129288346,
+        "interest_coverage": 6.865819849324489
+      },
+      {
+        "debt_to_capital": 0.35,
+        "implied_rating": "BBB+",
+        "pre_tax_cost_of_debt": 0.04937904001742602,
+        "levered_beta": 1.1952792741706832,
+        "cost_of_equity": 0.10026396370853416,
+        "wacc": 0.07813357441512153,
+        "interest_coverage": 5.661044664083422
+      },
+      {
+        "debt_to_capital": 0.4,
+        "implied_rating": "BBB",
+        "pre_tax_cost_of_debt": 0.0505,
+        "levered_beta": 1.2771477176070314,
+        "cost_of_equity": 0.10435738588035157,
+        "wacc": 0.07776443152821094,
+        "interest_coverage": 4.843462022419503
+      },
+      {
+        "debt_to_capital": 0.45,
+        "implied_rating": "BBB",
+        "pre_tax_cost_of_debt": 0.0505,
+        "levered_beta": 1.373901332577261,
+        "cost_of_equity": 0.10919506662886305,
+        "wacc": 0.07710103664587468,
+        "interest_coverage": 4.305299575484003
+      },
+      {
+        "debt_to_capital": 0.5,
+        "implied_rating": "BBB-",
+        "pre_tax_cost_of_debt": 0.0526644039911468,
+        "levered_beta": 1.4900056705415368,
+        "cost_of_equity": 0.11500028352707684,
+        "wacc": 0.07724929326021847,
+        "interest_coverage": 3.7155241657845823
+      },
+      {
+        "debt_to_capital": 0.55,
+        "implied_rating": "BBB-",
+        "pre_tax_cost_of_debt": 0.0526644039911468,
+        "levered_beta": 1.6319109724978733,
+        "cost_of_equity": 0.12209554862489366,
+        "wacc": 0.0766670635275502,
+        "interest_coverage": 3.377749241622348
+      },
+      {
+        "debt_to_capital": 0.6,
+        "implied_rating": "BBB-",
+        "pre_tax_cost_of_debt": 0.0526644039911468,
+        "levered_beta": 1.8092925999432945,
+        "cost_of_equity": 0.13096462999716474,
+        "wacc": 0.07608483379488196,
+        "interest_coverage": 3.0962701381538187
+      },
+      {
+        "debt_to_capital": 0.65,
+        "implied_rating": "BB",
+        "pre_tax_cost_of_debt": 0.058499999999999996,
+        "levered_beta": 2.037354692373122,
+        "cost_of_equity": 0.14236773461865612,
+        "wacc": 0.07834745711652963,
+        "interest_coverage": 2.5729896871235756
+      },
+      {
+        "debt_to_capital": 0.7,
+        "implied_rating": "CC",
+        "pre_tax_cost_of_debt": 0.17650000000000002,
+        "levered_beta": 2.4447994837649554,
+        "cost_of_equity": 0.1627399741882478,
+        "wacc": 0.14791250904325584,
+        "interest_coverage": 0.791889379626661
+      }
+    ],
+    "peer_net_debt_to_ebitda_median": 1.3499655215042063,
+    "target_net_debt_to_ebitda": 1.4396864396864397,
+    "incremental_debt_capacity_usd": 1127000000.0,
+    "rating_floor": "A",
+    "recommendation": "hold"
+  },
+  "capital_return": {
+    "valuation_discount_ev_ebitda": 0.6009163904017422,
+    "valuation_z_ev_ebitda": -1.031,
+    "fcf_yield": 0.1093040293040293,
+    "normalized_fcf_yield": 0.0906754644903629,
+    "long_term_growth": 0.02,
+    "cost_of_equity": 0.0955,
+    "buyback_irr_proxy": 0.1106754644903629,
+    "insider_signal": {
+      "issuer_cik": "0000027419",
+      "window_days": 120,
+      "open_market_buys": 4,
+      "open_market_sells": 0,
+      "buy_value_usd": 1924935.0,
+      "sell_value_usd": 0.0,
+      "net_value_usd": 1924935.0,
+      "distinct_buyers": 4,
+      "cluster_buy": true,
+      "planned_sale_share": 0.0,
+      "signal": "bullish",
+      "score": 1.0
+    },
+    "excess_cash_usd": 2630680000.0,
+    "annual_capacity_usd": 4308840000.0,
+    "recommended_mix": {
+      "buyback": 4086000000.0,
+      "special_dividend": 0.0,
+      "regular_dividend_growth": 222000000.0
+    },
+    "execution": "Front-load: execute ~40% of the year-one buyback via an accelerated share repurchase (ASR) to capture the current discount, and run the balance through a 10b5-1 grid that buys more below the 52-week VWAP.",
+    "blackout_note": "Next earnings expected around 2025-11-19; open-market purchases outside a 10b5-1 plan should stop ~2025-10-22 (quarter-end blackout) and resume 2 trading days after the release."
+  },
+  "investor_relations": {
+    "concerns": [
+      {
+        "theme": "discretionary_demand",
+        "analyst_question_count": 2,
+        "risk_factor_intensity": 0.2941,
+        "risk_factor_delta_vs_t4": 0.0941,
+        "holder_pressure_usd": 769329032.556226,
+        "severity": 0.91,
+        "evidence_ids": [
+          "E15",
+          "E20",
+          "E25"
+        ]
+      },
+      {
+        "theme": "leadership_transition",
+        "analyst_question_count": 1,
+        "risk_factor_intensity": 0.1765,
+        "risk_factor_delta_vs_t4": 0.1765,
+        "holder_pressure_usd": 892323510.6694297,
+        "severity": 0.751,
+        "evidence_ids": [
+          "E26",
+          "E35"
+        ]
+      },
+      {
+        "theme": "brand_reputation",
+        "analyst_question_count": 1,
+        "risk_factor_intensity": 0.1176,
+        "risk_factor_delta_vs_t4": 0.1176,
+        "holder_pressure_usd": 769329032.556226,
+        "severity": 0.626,
+        "evidence_ids": [
+          "E19",
+          "E20"
+        ]
+      },
+      {
+        "theme": "tariffs_trade",
+        "analyst_question_count": 1,
+        "risk_factor_intensity": 0.1765,
+        "risk_factor_delta_vs_t4": 0.1765,
+        "holder_pressure_usd": 36899021.88679637,
+        "severity": 0.512,
+        "evidence_ids": [
+          "E17",
+          "E34"
+        ]
+      },
+      {
+        "theme": "inventory_markdowns",
+        "analyst_question_count": 1,
+        "risk_factor_intensity": 0.1176,
+        "risk_factor_delta_vs_t4": -0.2824,
+        "holder_pressure_usd": 769329032.556226,
+        "severity": 0.508,
+        "evidence_ids": [
+          "E24",
+          "E25"
+        ]
+      },
+      {
+        "theme": "competition_pricing",
+        "analyst_question_count": 1,
+        "risk_factor_intensity": 0.1765,
+        "risk_factor_delta_vs_t4": -0.0235,
+        "holder_pressure_usd": 0.0,
+        "severity": 0.351,
+        "evidence_ids": [
+          "E23"
+        ]
+      },
+      {
+        "theme": "shrink_theft",
+        "analyst_question_count": 0,
+        "risk_factor_intensity": 0.1176,
+        "risk_factor_delta_vs_t4": -0.0824,
+        "holder_pressure_usd": 769329032.556226,
+        "severity": 0.333,
+        "evidence_ids": [
+          "E21"
+        ]
+      },
+      {
+        "theme": "capital_return",
+        "analyst_question_count": 1,
+        "risk_factor_intensity": 0.0,
+        "risk_factor_delta_vs_t4": 0.0,
+        "holder_pressure_usd": 0.0,
+        "severity": 0.175,
+        "evidence_ids": [
+          "E29",
+          "E30"
+        ]
+      }
+    ],
+    "talking_points": [
+      {
+        "theme": "discretionary_demand",
+        "message": "Separate cyclical from company-specific traffic: show traffic by category and income cohort, and commit to a dated traffic-recovery plan.",
+        "proof_points": [
+          "1-year TSR -38% vs peer median 23% [E12]",
+          "~$0.77bn of price-neutral selling by funds rotating into peers with lower discretionary demand and traffic disclosure"
+        ],
+        "kpi_commitments": [
+          "store traffic by category (quarterly)",
+          "discretionary vs. essentials comp split",
+          "new-item penetration"
+        ],
+        "avoid": [
+          "blaming the macro without showing share data"
+        ],
+        "evidence_ids": [
+          "E15",
+          "E20",
+          "E25"
+        ]
+      },
+      {
+        "theme": "leadership_transition",
+        "message": "De-risk the CEO handover: name the 2-3 operating priorities, date the investor day, and confirm financial targets carry over.",
+        "proof_points": [
+          "~$0.89bn of price-neutral selling by funds rotating into peers with lower CEO transition and strategy disclosure"
+        ],
+        "kpi_commitments": [
+          "investor-day date",
+          "multi-year operating-margin and EPS framework"
+        ],
+        "avoid": [
+          "'strategy is intact' without new milestones"
+        ],
+        "evidence_ids": [
+          "E26",
+          "E35"
+        ]
+      },
+      {
+        "theme": "brand_reputation",
+        "message": "Acknowledge the guest reaction directly, show the trust-recovery metrics you track, and keep the topic short and data-led.",
+        "proof_points": [
+          "~$0.77bn of price-neutral selling by funds rotating into peers with lower brand and reputation disclosure"
+        ],
+        "kpi_commitments": [
+          "guest NPS / trust index trend",
+          "traffic in affected regions vs. company average"
+        ],
+        "avoid": [
+          "re-litigating the original decision on the call"
+        ],
+        "evidence_ids": [
+          "E19",
+          "E20"
+        ]
+      },
+      {
+        "theme": "tariffs_trade",
+        "message": "Quantify the tariff bridge (gross exposure → vendor share → sourcing shifts → price) instead of folding it into the guidance range.",
+        "proof_points": [
+          "~$0.04bn of price-neutral selling by funds rotating into peers with lower tariff exposure disclosure"
+        ],
+        "kpi_commitments": [
+          "tariff cost bridge in bps of gross margin",
+          "% of owned-brand units sourced outside high-tariff countries"
+        ],
+        "avoid": [
+          "declining to size the exposure",
+          "implying full pass-through without elasticity evidence"
+        ],
+        "evidence_ids": [
+          "E17",
+          "E34"
+        ]
+      },
+      {
+        "theme": "inventory_markdowns",
+        "message": "Frame inventory as a cash lever: show the DIO gap to peers and the cash released by closing it.",
+        "proof_points": [
+          "DIO 61 days vs peer median 35; closing half the gap releases ~$2.66bn of cash [E11]",
+          "~$0.77bn of price-neutral selling by funds rotating into peers with lower inventory and markdowns disclosure"
+        ],
+        "kpi_commitments": [
+          "days inventory outstanding",
+          "markdown rate",
+          "in-stock rate"
+        ],
+        "avoid": [
+          "claiming inventory is 'clean' without turns data"
+        ],
+        "evidence_ids": [
+          "E24",
+          "E25"
+        ]
+      }
+    ],
+    "holders_to_engage": [
+      "Meridian Index Advisors (synthetic)",
+      "Bluewater Passive Funds (synthetic)",
+      "Keystone Street Global (synthetic)",
+      "Northgate Dividend Income (synthetic)",
+      "Granite Harbor Activist Partners (synthetic)",
+      "Atlas Sovereign Wealth (synthetic)"
+    ],
+    "holders_at_risk": [
+      "Halcyon Ridge Capital (synthetic)",
+      "Lakeshore Fundamental Equity (synthetic)",
+      "Summit Growth Partners (synthetic)",
+      "Vector Quant Strategies (synthetic)"
+    ]
+  },
+  "recommendations": [
+    {
+      "rec_id": "R1",
+      "area": "capital_structure",
+      "title": "Capital structure: stay within the rating commitment",
+      "action": "Hold leverage near 28.0% debt/capital: the A rating commitment, not the cost of capital, is the binding constraint (optimum within the floor is 30.0%). Fund capital returns from free cash flow and working capital, and refinance maturities at the long end.",
+      "rationale": "Net debt/EBITDA is 1.31x vs a peer median of 1.35x [E8]; the WACC curve shows 7.87% today vs 7.84% at the constrained optimum [E37]. Management has tied leverage to its ratings commitment [E31, E28].",
+      "quantitative_basis": {
+        "current_debt_to_capital": 0.28018984004218667,
+        "optimal_debt_to_capital": 0.3,
+        "current_wacc": 0.07872363332747408,
+        "optimal_wacc": 0.07841622129288346,
+        "incremental_debt_capacity_usd": 1127000000.0,
+        "rating_floor": "A"
+      },
+      "evidence_ids": [
+        "E8",
+        "E37",
+        "E31",
+        "E28"
+      ],
+      "priority": "medium",
+      "horizon": "3-12 months",
+      "confidence": 0.7,
+      "kpis_to_track": [
+        "net debt / EBITDA",
+        "EBIT / interest",
+        "agency outlook"
+      ],
+      "risks": [
+        "EBIT decline compresses coverage faster than modeled",
+        "agency lease adjustments differ from the calibration offset"
+      ]
+    },
+    {
+      "rec_id": "R2",
+      "area": "capital_return",
+      "title": "Resume repurchases now; no special dividend",
+      "action": "Restart the buyback at ~$4.09bn per year from existing authorization. Front-load: execute ~40% of the year-one buyback via an accelerated share repurchase (ASR) to capture the current discount, and run the balance through a 10b5-1 grid that buys more below the 52-week VWAP. Keep the regular dividend; earmark ~$0.22bn for dividend growth. Next earnings expected around 2025-11-19; open-market purchases outside a 10b5-1 plan should stop ~2025-10-22 (quarter-end blackout) and resume 2 trading days after the release.",
+      "rationale": "Shares trade at a 60% EV/EBITDA discount to peers [E1, E39]. Even after haircutting the 10.9% FCF yield to 9.1% for the consensus EPS decline, the implied return on repurchased stock is 11.1% vs a 9.6% cost of equity [E39]. Insiders are buying in the open market (4 buyers, cluster=True) [E38]. Repurchases were paused while authorization remains [E32, E30].",
+      "quantitative_basis": {
+        "valuation_discount": 0.6009163904017422,
+        "fcf_yield": 0.1093040293040293,
+        "buyback_irr_proxy": 0.1106754644903629,
+        "cost_of_equity": 0.0955,
+        "annual_capacity_usd": 4308840000.0,
+        "buyback_usd": 4086000000.0,
+        "insider_score": 1.0
+      },
+      "evidence_ids": [
+        "E1",
+        "E39",
+        "E38",
+        "E32",
+        "E30"
+      ],
+      "priority": "high",
+      "horizon": "0-3 months",
+      "confidence": 0.75,
+      "kpis_to_track": [
+        "shares repurchased vs. plan",
+        "average repurchase price vs. intrinsic value",
+        "net leverage after returns"
+      ],
+      "risks": [
+        "buying ahead of further estimate cuts",
+        "repurchases crowding out turnaround capex"
+      ]
+    },
+    {
+      "rec_id": "R3",
+      "area": "investor_relations",
+      "title": "Narrative defense on the next earnings call",
+      "action": "(1) Discretionary demand and traffic: Separate cyclical from company-specific traffic: show traffic by category and income cohort, and commit to a dated traffic-recovery plan. (2) CEO transition and strategy: De-risk the CEO handover: name the 2-3 operating priorities, date the investor day, and confirm financial targets carry over. (3) Brand and reputation: Acknowledge the guest reaction directly, show the trust-recovery metrics you track, and keep the topic short and data-led.",
+      "rationale": "The most persistent investor concerns are discretionary demand and traffic (2 analyst questions), CEO transition and strategy (1 analyst question), brand and reputation (1 analyst question) [E36], and they line up with themes where the company's risk disclosure exceeds that of the peers funds are rotating into [E15, E19, E20, E25, E26, E35].",
+      "quantitative_basis": {
+        "discretionary_demand": 0.91,
+        "leadership_transition": 0.751,
+        "brand_reputation": 0.626
+      },
+      "evidence_ids": [
+        "E36",
+        "E15",
+        "E19",
+        "E20",
+        "E25",
+        "E26",
+        "E35"
+      ],
+      "priority": "high",
+      "horizon": "0-3 months",
+      "confidence": 0.7,
+      "kpis_to_track": [
+        "discretionary vs. essentials comp split",
+        "guest NPS / trust index trend",
+        "investor-day date",
+        "multi-year operating-margin and EPS framework",
+        "new-item penetration",
+        "store traffic by category (quarterly)",
+        "traffic in affected regions vs. company average"
+      ],
+      "risks": [
+        "over-committing to KPIs that are volatile quarter to quarter"
+      ]
+    },
+    {
+      "rec_id": "R4",
+      "area": "activist_defense",
+      "title": "Get ahead of an activist campaign",
+      "action": "Run a pre-emptive 'activist audit' this quarter: (a) meet the top holders adding to positions and any activist on the register before the proxy nomination window; (b) announce a dated investor day with a multi-year margin and capital-return framework; (c) review board skills for retail operations and capital allocation; (d) prepare a fact base on the valuation gap and the turnaround milestones.",
+      "rationale": "The activist vulnerability score is 61.7/100 (high), driven by EV/EBITDA discount to peers, 1-year TSR lagging peers, leadership transition disclosed, activist/hedge-fund presence in a dispersed register [E40]; funds have been rotating out of the stock into peers [E41].",
+      "quantitative_basis": {
+        "score": 61.7,
+        "valuation_discount": 1.0,
+        "tsr_underperformance": 1.0,
+        "working_capital_gap": 0.384,
+        "yield_and_payout_gap": 0.0,
+        "balance_sheet_slack": 0.028,
+        "margin_gap": 0.0,
+        "register_vulnerability": 0.54,
+        "governance_transition": 1.0
+      },
+      "evidence_ids": [
+        "E40",
+        "E41"
+      ],
+      "priority": "critical",
+      "horizon": "0-3 months",
+      "confidence": 0.65,
+      "kpis_to_track": [
+        "activist % of shares outstanding",
+        "say-on-pay support",
+        "13D/13G filings"
+      ],
+      "risks": [
+        "defensive posture read as entrenchment if not paired with targets"
+      ]
+    },
+    {
+      "rec_id": "R5",
+      "area": "valuation",
+      "title": "Release working capital to fund returns",
+      "action": "Set a 24-month target to cut days inventory outstanding by 13 days (half the gap to peers), releasing ~$2.66bn of cash, and report DIO quarterly.",
+      "rationale": "DIO is 61 days vs a peer median of 35 [E11].",
+      "quantitative_basis": {
+        "dio": 60.78403179001856,
+        "peer_median_dio": 35.43019799091074,
+        "cash_release_half_gap_usd": 2657012319.5881457
+      },
+      "evidence_ids": [
+        "E11"
+      ],
+      "priority": "medium",
+      "horizon": "3-12 months",
+      "confidence": 0.6,
+      "kpis_to_track": [
+        "DIO",
+        "in-stock rate",
+        "markdown rate"
+      ],
+      "risks": [
+        "under-assortment in discretionary categories during holiday"
+      ]
+    },
+    {
+      "rec_id": "R6",
+      "area": "m_and_a",
+      "title": "M&A posture: no large deals at a trough multiple",
+      "action": "Avoid stock-funded or large debt-funded acquisitions while the shares trade at a discount; limit M&A to bolt-ons that accelerate digital, advertising or supply-chain capability and fit inside the rating floor. Publicly rebut unsupported market chatter with the stated capital-allocation order.",
+      "rationale": "Using undervalued stock as currency transfers value to sellers [E1], and leverage headroom within the rating floor is limited [E37]. Low-authority market chatter about a debt-funded deal or a dividend cut conflicts with management's stated priorities [E42, E31].",
+      "quantitative_basis": {
+        "ev_to_ebitda": 6.098982098982099,
+        "incremental_debt_capacity_usd": 1127000000.0
+      },
+      "evidence_ids": [
+        "E1",
+        "E37",
+        "E42",
+        "E31"
+      ],
+      "priority": "medium",
+      "horizon": "12-36 months",
+      "confidence": 0.6,
+      "kpis_to_track": [
+        "ROIC on acquired capital",
+        "EV/EBITDA vs peers"
+      ],
+      "risks": [
+        "missing a capability that peers acquire"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "E1",
+      "kind": "metric",
+      "summary": "ev_to_ebitda: TGT 6.099 vs peer median 15.28 (robust z -1.031)",
+      "citation": null,
+      "values": {
+        "TGT": 6.098982098982099,
+        "peer_median": 15.282467012668622,
+        "z_score": -1.031,
+        "WMT": 20.11741215944803,
+        "COST": 35.641685471272346,
+        "DG": 10.447521865889213,
+        "KR": 8.096325719960278
+      },
+      "derived_from": [
+        "FIXTURE-COST-10K-FY2024",
+        "FIXTURE-DG-10K-FY2024",
+        "FIXTURE-KR-10K-FY2024",
+        "FIXTURE-TGT-10K-FY2024",
+        "FIXTURE-WMT-10K-FY2025",
+        "fixture"
+      ]
+    },
+    {
+      "evidence_id": "E2",
+      "kind": "metric",
+      "summary": "pe: TGT 10.16 vs peer median 31.64 (robust z -1.158)",
+      "citation": null,
+      "values": {
+        "TGT": 10.15801354401806,
+        "peer_median": 31.643267208548853,
+        "z_score": -1.158,
+        "WMT": 42.738589211618255,
+        "COST": 56.46135265700484,
+        "DG": 20.54794520547945,
+        "KR": 17.71117166212534
+      },
+      "derived_from": [
+        "FIXTURE-COST-10K-FY2024",
+        "FIXTURE-DG-10K-FY2024",
+        "FIXTURE-KR-10K-FY2024",
+        "FIXTURE-TGT-10K-FY2024",
+        "FIXTURE-WMT-10K-FY2025",
+        "fixture"
+      ]
+    },
+    {
+      "evidence_id": "E3",
+      "kind": "metric",
+      "summary": "fcf_yield: TGT 0.1093 vs peer median 0.03356 (robust z 2.861)",
+      "citation": null,
+      "values": {
+        "TGT": 0.1093040293040293,
+        "peer_median": 0.03355661506684447,
+        "z_score": 2.861,
+        "WMT": 0.01541224092278662,
+        "COST": 0.0159861095201635,
+        "DG": 0.0722943722943723,
+        "KR": 0.05112712061352545
+      },
+      "derived_from": [
+        "FIXTURE-COST-10K-FY2024",
+        "FIXTURE-DG-10K-FY2024",
+        "FIXTURE-KR-10K-FY2024",
+        "FIXTURE-TGT-10K-FY2024",
+        "FIXTURE-WMT-10K-FY2025",
+        "fixture"
+      ]
+    },
+    {
+      "evidence_id": "E4",
+      "kind": "metric",
+      "summary": "dividend_yield: TGT 0.05067 vs peer median 0.01533 (robust z 3.57)",
+      "citation": null,
+      "values": {
+        "TGT": 0.050666666666666665,
+        "peer_median": 0.015332337565347274,
+        "z_score": 3.57,
+        "WMT": 0.009126213592233009,
+        "COST": 0.005561497326203209,
+        "DG": 0.022476190476190476,
+        "KR": 0.021538461538461538
+      },
+      "derived_from": [
+        "FIXTURE-COST-10K-FY2024",
+        "FIXTURE-DG-10K-FY2024",
+        "FIXTURE-KR-10K-FY2024",
+        "FIXTURE-TGT-10K-FY2024",
+        "FIXTURE-WMT-10K-FY2025",
+        "fixture"
+      ]
+    },
+    {
+      "evidence_id": "E5",
+      "kind": "metric",
+      "summary": "shareholder_yield: TGT 0.07455 vs peer median 0.02244 (robust z 7.939)",
+      "citation": null,
+      "values": {
+        "TGT": 0.07455433455433455,
+        "peer_median": 0.022441405997676307,
+        "z_score": 7.939,
+        "WMT": 0.013612928751864138,
+        "COST": 0.02241527952782015,
+        "DG": 0.022467532467532466,
+        "KR": 0.13688124564257495
+      },
+      "derived_from": [
+        "FIXTURE-COST-10K-FY2024",
+        "FIXTURE-DG-10K-FY2024",
+        "FIXTURE-KR-10K-FY2024",
+        "FIXTURE-TGT-10K-FY2024",
+        "FIXTURE-WMT-10K-FY2025",
+        "fixture"
+      ]
+    },
+    {
+      "evidence_id": "E6",
+      "kind": "metric",
+      "summary": "operating_margin: TGT 0.05223 vs peer median 0.03935 (robust z 2.631)",
+      "citation": null,
+      "values": {
+        "TGT": 0.052230542574554735,
+        "peer_median": 0.03934715700826468,
+        "z_score": 2.631,
+        "WMT": 0.04309639713062696,
+        "COST": 0.036490039417888566,
+        "DG": 0.0422042745986408,
+        "KR": 0.026161782997899716
+      },
+      "derived_from": [
+        "FIXTURE-COST-10K-FY2024",
+        "FIXTURE-DG-10K-FY2024",
+        "FIXTURE-KR-10K-FY2024",
+        "FIXTURE-TGT-10K-FY2024",
+        "FIXTURE-WMT-10K-FY2025",
+        "fixture"
+      ]
+    },
+    {
+      "evidence_id": "E7",
+      "kind": "metric",
+      "summary": "roic: TGT 0.1673 vs peer median 0.1627 (robust z 0.074)",
+      "citation": null,
+      "values": {
+        "TGT": 0.16731392768072395,
+        "peer_median": 0.16273177862982377,
+        "z_score": 0.074,
+        "WMT": 0.18586484533274594,
+        "COST": 0.3580713657318392,
+        "DG": 0.10235231170518712,
+        "KR": 0.1395987119269016
+      },
+      "derived_from": [
+        "FIXTURE-COST-10K-FY2024",
+        "FIXTURE-DG-10K-FY2024",
+        "FIXTURE-KR-10K-FY2024",
+        "FIXTURE-TGT-10K-FY2024",
+        "FIXTURE-WMT-10K-FY2025",
+        "fixture"
+      ]
+    },
+    {
+      "evidence_id": "E8",
+      "kind": "metric",
+      "summary": "net_debt_to_ebitda: TGT 1.308 vs peer median 1.35 (robust z -0.043)",
+      "citation": null,
+      "values": {
+        "TGT": 1.3078273078273077,
+        "peer_median": 1.3499655215042063,
+        "z_score": -0.043,
+        "WMT": 0.7080172963776848,
+        "COST": -0.3479430654400278,
+        "DG": 2.0291545189504374,
+        "KR": 1.9919137466307277
+      },
+      "derived_from": [
+        "FIXTURE-COST-10K-FY2024",
+        "FIXTURE-DG-10K-FY2024",
+        "FIXTURE-KR-10K-FY2024",
+        "FIXTURE-TGT-10K-FY2024",
+        "FIXTURE-WMT-10K-FY2025",
+        "fixture"
+      ]
+    },
+    {
+      "evidence_id": "E9",
+      "kind": "metric",
+      "summary": "interest_coverage: TGT 13.54 vs peer median 8.483 (robust z 1.452)",
+      "citation": null,
+      "values": {
+        "TGT": 13.54257907542579,
+        "peer_median": 8.483064516129032,
+        "z_score": 1.452,
+        "WMT": 10.758064516129032,
+        "COST": 54.94082840236686,
+        "DG": 6.056537102473499,
+        "KR": 6.208064516129032
+      },
+      "derived_from": [
+        "FIXTURE-COST-10K-FY2024",
+        "FIXTURE-DG-10K-FY2024",
+        "FIXTURE-KR-10K-FY2024",
+        "FIXTURE-TGT-10K-FY2024",
+        "FIXTURE-WMT-10K-FY2025",
+        "fixture"
+      ]
+    },
+    {
+      "evidence_id": "E10",
+      "kind": "metric",
+      "summary": "cash_conversion_cycle: TGT 1.247 vs peer median 3.54 (robust z -0.31)",
+      "citation": null,
+      "values": {
+        "TGT": 1.246726305393004,
+        "peer_median": 3.539640040163359,
+        "z_score": -0.31,
+        "WMT": 3.755256775810217,
+        "COST": 3.3240233045165013,
+        "DG": 43.45328611602958,
+        "KR": -6.224680230808222
+      },
+      "derived_from": [
+        "FIXTURE-COST-10K-FY2024",
+        "FIXTURE-DG-10K-FY2024",
+        "FIXTURE-KR-10K-FY2024",
+        "FIXTURE-TGT-10K-FY2024",
+        "FIXTURE-WMT-10K-FY2025",
+        "fixture"
+      ]
+    },
+    {
+      "evidence_id": "E11",
+      "kind": "metric",
+      "summary": "dio: TGT 60.78 vs peer median 35.43 (robust z 1.913)",
+      "citation": null,
+      "values": {
+        "TGT": 60.78403179001856,
+        "peer_median": 35.43019799091074,
+        "z_score": 1.913,
+        "WMT": 40.25140057801322,
+        "COST": 30.608995403808272,
+        "DG": 86.89389994097837,
+        "KR": 22.373029772329247
+      },
+      "derived_from": [
+        "FIXTURE-COST-10K-FY2024",
+        "FIXTURE-DG-10K-FY2024",
+        "FIXTURE-KR-10K-FY2024",
+        "FIXTURE-TGT-10K-FY2024",
+        "FIXTURE-WMT-10K-FY2025",
+        "fixture"
+      ]
+    },
+    {
+      "evidence_id": "E12",
+      "kind": "metric",
+      "summary": "tsr_1y: TGT -0.38 vs peer median 0.23 (robust z -6.857)",
+      "citation": null,
+      "values": {
+        "TGT": -0.38,
+        "peer_median": 0.23,
+        "z_score": -6.857,
+        "WMT": 0.28,
+        "COST": 0.05,
+        "DG": 0.3,
+        "KR": 0.18
+      },
+      "derived_from": [
+        "FIXTURE-COST-10K-FY2024",
+        "FIXTURE-DG-10K-FY2024",
+        "FIXTURE-KR-10K-FY2024",
+        "FIXTURE-TGT-10K-FY2024",
+        "FIXTURE-WMT-10K-FY2025",
+        "fixture"
+      ]
+    },
+    {
+      "evidence_id": "E13",
+      "kind": "metric",
+      "summary": "tsr_3y: TGT -0.36 vs peer median 0.75 (robust z -2.139)",
+      "citation": null,
+      "values": {
+        "TGT": -0.36,
+        "peer_median": 0.75,
+        "z_score": -2.139,
+        "WMT": 1.25,
+        "COST": 0.95,
+        "DG": -0.52,
+        "KR": 0.55
+      },
+      "derived_from": [
+        "FIXTURE-COST-10K-FY2024",
+        "FIXTURE-DG-10K-FY2024",
+        "FIXTURE-KR-10K-FY2024",
+        "FIXTURE-TGT-10K-FY2024",
+        "FIXTURE-WMT-10K-FY2025",
+        "fixture"
+      ]
+    },
+    {
+      "evidence_id": "E14",
+      "kind": "metric",
+      "summary": "debt_to_capital_market: TGT 0.2802 vs peer median 0.1325 (robust z 0.969)",
+      "citation": null,
+      "values": {
+        "TGT": 0.28018984004218667,
+        "peer_median": 0.13246107082343436,
+        "z_score": 0.969,
+        "WMT": 0.045327547052274104,
+        "COST": 0.014021463753315444,
+        "DG": 0.2195945945945946,
+        "KR": 0.2949369162706865
+      },
+      "derived_from": [
+        "FIXTURE-COST-10K-FY2024",
+        "FIXTURE-DG-10K-FY2024",
+        "FIXTURE-KR-10K-FY2024",
+        "FIXTURE-TGT-10K-FY2024",
+        "FIXTURE-WMT-10K-FY2025",
+        "fixture"
+      ]
+    },
+    {
+      "evidence_id": "E15",
+      "kind": "chunk",
+      "summary": "Our results depend on discretionary consumer demand. A significant share of our sales mix is in discretionary categories such as home, apparel and hardlines, and continued pressure on consumer budgets from elevated prices and interest rates reduced traffic and comparable sales during the year. Prolonged softness in discretionary spending would adversely affect our sales, margin mix and earnings.",
+      "citation": {
+        "citation_id": "E15",
+        "chunk_id": "4b71c2546de621d1",
+        "accession": "FIXTURE-TGT-10K-FY2024",
+        "form_type": "10-K",
+        "company": "Target Corporation",
+        "ticker": "TGT",
+        "fiscal_period": "FY2024",
+        "item": "1A",
+        "page": 2,
+        "filed_date": "2025-03-12",
+        "source_url": null,
+        "is_synthetic": true,
+        "quote": "Our results depend on discretionary consumer demand. A significant share of our sales mix is in discretionary categories such as home, apparel and hardlines, and continued pressure on consumer budgets from elevated prices and interest rates reduced traffic and comparable sales during the year. Prolo"
+      },
+      "values": {},
+      "derived_from": [
+        "FIXTURE-TGT-10K-FY2024"
+      ]
+    },
+    {
+      "evidence_id": "E16",
+      "kind": "chunk",
+      "summary": "Comparable sales decreased 1.9 percent in the second quarter, reflecting a decrease in comparable store traffic partially offset by growth in digital comparable sales. Discretionary categories, particularly home and apparel, remained soft, while food and essentials and beauty were relatively stable.",
+      "citation": {
+        "citation_id": "E16",
+        "chunk_id": "1741afa77f89e1ee",
+        "accession": "FIXTURE-TGT-10Q-Q2FY2025",
+        "form_type": "10-Q",
+        "company": "Target Corporation",
+        "ticker": "TGT",
+        "fiscal_period": "Q2 FY2025",
+        "item": "I-2",
+        "page": 2,
+        "filed_date": "2025-08-27",
+        "source_url": null,
+        "is_synthetic": true,
+        "quote": "Comparable sales decreased 1.9 percent in the second quarter, reflecting a decrease in comparable store traffic partially offset by growth in digital comparable sales. Discretionary categories, particularly home and apparel, remained soft, while food and essentials and beauty were relatively stable."
+      },
+      "values": {},
+      "derived_from": [
+        "FIXTURE-TGT-10Q-Q2FY2025"
+      ]
+    },
+    {
+      "evidence_id": "E17",
+      "kind": "chunk",
+      "summary": "Changes in trade policy, including tariffs on imported merchandise, could increase our costs. A meaningful portion of our owned-brand and national-brand assortment is sourced from outside the United States. New or increased tariffs may raise product costs, and we may be unable to fully offset them through vendor negotiations, sourcing changes or pricing without harming demand.",
+      "citation": {
+        "citation_id": "E17",
+        "chunk_id": "a515c787c78bc3d9",
+        "accession": "FIXTURE-TGT-10K-FY2024",
+        "form_type": "10-K",
+        "company": "Target Corporation",
+        "ticker": "TGT",
+        "fiscal_period": "FY2024",
+        "item": "1A",
+        "page": 2,
+        "filed_date": "2025-03-12",
+        "source_url": null,
+        "is_synthetic": true,
+        "quote": "Changes in trade policy, including tariffs on imported merchandise, could increase our costs. A meaningful portion of our owned-brand and national-brand assortment is sourced from outside the United States. New or increased tariffs may raise product costs, and we may be unable to fully offset them t"
+      },
+      "values": {},
+      "derived_from": [
+        "FIXTURE-TGT-10K-FY2024"
+      ]
+    },
+    {
+      "evidence_id": "E18",
+      "kind": "chunk",
+      "summary": "There have been no material changes to the risk factors disclosed in our most recent Annual Report, except as follows: the announced transition of our Chief Executive Officer may create uncertainty among team members, vendors and investors, and the imposition of additional tariffs on goods imported from several sourcing countries has increased the risk that our product costs will rise faster than we can offset.",
+      "citation": {
+        "citation_id": "E18",
+        "chunk_id": "3f660eef91c9f391",
+        "accession": "FIXTURE-TGT-10Q-Q2FY2025",
+        "form_type": "10-Q",
+        "company": "Target Corporation",
+        "ticker": "TGT",
+        "fiscal_period": "Q2 FY2025",
+        "item": "II-1A",
+        "page": 3,
+        "filed_date": "2025-08-27",
+        "source_url": null,
+        "is_synthetic": true,
+        "quote": "There have been no material changes to the risk factors disclosed in our most recent Annual Report, except as follows: the announced transition of our Chief Executive Officer may create uncertainty among team members, vendors and investors, and the imposition of additional tariffs on goods imported "
+      },
+      "values": {},
+      "derived_from": [
+        "FIXTURE-TGT-10Q-Q2FY2025"
+      ]
+    },
+    {
+      "evidence_id": "E19",
+      "kind": "chunk",
+      "summary": "Our brand and reputation may be harmed by public reaction to our positions, merchandise decisions or business practices. Customer and advocacy-group responses, including calls for boycotts and negative social media attention, have in the past and could in the future reduce guest traffic and sales.",
+      "citation": {
+        "citation_id": "E19",
+        "chunk_id": "32f496cb0987d683",
+        "accession": "FIXTURE-TGT-10K-FY2024",
+        "form_type": "10-K",
+        "company": "Target Corporation",
+        "ticker": "TGT",
+        "fiscal_period": "FY2024",
+        "item": "1A",
+        "page": 2,
+        "filed_date": "2025-03-12",
+        "source_url": null,
+        "is_synthetic": true,
+        "quote": "Our brand and reputation may be harmed by public reaction to our positions, merchandise decisions or business practices. Customer and advocacy-group responses, including calls for boycotts and negative social media attention, have in the past and could in the future reduce guest traffic and sales."
+      },
+      "values": {},
+      "derived_from": [
+        "FIXTURE-TGT-10K-FY2024"
+      ]
+    },
+    {
+      "evidence_id": "E20",
+      "kind": "chunk",
+      "summary": "Analyst, Firm B (analyst): Traffic has been negative for several quarters. How much of that is the broader discretionary environment versus brand perception issues and the boycott earlier this year?\nChief Executive Officer (management): We are listening to our guests. Some of the pressure is macro and some is specific to us, including reaction to decisions we made earlier in the year. We are focused on rebuilding trust through value, newness and a great in-store experience.",
+      "citation": {
+        "citation_id": "E20",
+        "chunk_id": "4e327a975d6667dd",
+        "accession": "FIXTURE-TGT-CALL-Q2FY2025",
+        "form_type": "TRANSCRIPT",
+        "company": "Target Corporation",
+        "ticker": "TGT",
+        "fiscal_period": "Q2 FY2025",
+        "item": "Q&A",
+        "page": null,
+        "filed_date": "2025-08-20",
+        "source_url": null,
+        "is_synthetic": true,
+        "quote": "Analyst, Firm B (analyst): Traffic has been negative for several quarters. How much of that is the broader discretionary environment versus brand perception issues and the boycott earlier this year?\nChief Executive Officer (management): We are listening to our guests. Some of the pressure is macro a"
+      },
+      "values": {},
+      "derived_from": [
+        "FIXTURE-TGT-CALL-Q2FY2025"
+      ]
+    },
+    {
+      "evidence_id": "E21",
+      "kind": "chunk",
+      "summary": "Inventory shrink, including theft and organized retail crime, has affected and may continue to affect our gross margin. While shrink moderated from the prior year, elevated levels would pressure profitability. We face intense competition from multi-category retailers, warehouse clubs, dollar stores and digital marketplaces, many of which compete aggressively on price, assortment and delivery speed.",
+      "citation": {
+        "citation_id": "E21",
+        "chunk_id": "0f40625ccb997341",
+        "accession": "FIXTURE-TGT-10K-FY2024",
+        "form_type": "10-K",
+        "company": "Target Corporation",
+        "ticker": "TGT",
+        "fiscal_period": "FY2024",
+        "item": "1A",
+        "page": 2,
+        "filed_date": "2025-03-12",
+        "source_url": null,
+        "is_synthetic": true,
+        "quote": "Inventory shrink, including theft and organized retail crime, has affected and may continue to affect our gross margin. While shrink moderated from the prior year, elevated levels would pressure profitability. We face intense competition from multi-category retailers, warehouse clubs, dollar stores "
+      },
+      "values": {},
+      "derived_from": [
+        "FIXTURE-TGT-10K-FY2024"
+      ]
+    },
+    {
+      "evidence_id": "E22",
+      "kind": "chunk",
+      "summary": "Our results depend on discretionary consumer demand, which may be affected by inflation and higher interest rates. Inventory shrink, including theft and organized retail crime, increased significantly and reduced our gross margin; we closed several stores in part due to theft and safety concerns.",
+      "citation": {
+        "citation_id": "E22",
+        "chunk_id": "9df04ae53d58586f",
+        "accession": "FIXTURE-TGT-10K-FY2023",
+        "form_type": "10-K",
+        "company": "Target Corporation",
+        "ticker": "TGT",
+        "fiscal_period": "FY2023",
+        "item": "1A",
+        "page": 2,
+        "filed_date": "2024-03-13",
+        "source_url": null,
+        "is_synthetic": true,
+        "quote": "Our results depend on discretionary consumer demand, which may be affected by inflation and higher interest rates. Inventory shrink, including theft and organized retail crime, increased significantly and reduced our gross margin; we closed several stores in part due to theft and safety concerns."
+      },
+      "values": {},
+      "derived_from": [
+        "FIXTURE-TGT-10K-FY2023"
+      ]
+    },
+    {
+      "evidence_id": "E23",
+      "kind": "chunk",
+      "summary": "Analyst, Firm F (analyst): How are you thinking about competitive pricing pressure from Walmart and Costco, who are gaining share with higher-income households?\nChief Executive Officer (management): We compete on a differentiated assortment, owned brands and convenience. We are sharpening value on thousands of everyday items.",
+      "citation": {
+        "citation_id": "E23",
+        "chunk_id": "a4bf744daad60870",
+        "accession": "FIXTURE-TGT-CALL-Q2FY2025",
+        "form_type": "TRANSCRIPT",
+        "company": "Target Corporation",
+        "ticker": "TGT",
+        "fiscal_period": "Q2 FY2025",
+        "item": "Q&A",
+        "page": null,
+        "filed_date": "2025-08-20",
+        "source_url": null,
+        "is_synthetic": true,
+        "quote": "Analyst, Firm F (analyst): How are you thinking about competitive pricing pressure from Walmart and Costco, who are gaining share with higher-income households?\nChief Executive Officer (management): We compete on a differentiated assortment, owned brands and convenience. We are sharpening value on t"
+      },
+      "values": {},
+      "derived_from": [
+        "FIXTURE-TGT-CALL-Q2FY2025"
+      ]
+    },
+    {
+      "evidence_id": "E24",
+      "kind": "chunk",
+      "summary": "Competitors with greater scale may be able to absorb cost increases more effectively. A failure to manage inventory levels and assortment, including excess discretionary inventory, could require markdowns that lower our gross margin rate. We rely on information systems and could be subject to a significant cybersecurity incident that compromises guest or team member data.",
+      "citation": {
+        "citation_id": "E24",
+        "chunk_id": "a62c87e135682050",
+        "accession": "FIXTURE-TGT-10K-FY2024",
+        "form_type": "10-K",
+        "company": "Target Corporation",
+        "ticker": "TGT",
+        "fiscal_period": "FY2024",
+        "item": "1A",
+        "page": 2,
+        "filed_date": "2025-03-12",
+        "source_url": null,
+        "is_synthetic": true,
+        "quote": "Competitors with greater scale may be able to absorb cost increases more effectively. A failure to manage inventory levels and assortment, including excess discretionary inventory, could require markdowns that lower our gross margin rate. We rely on information systems and could be subject to a sign"
+      },
+      "values": {},
+      "derived_from": [
+        "FIXTURE-TGT-10K-FY2024"
+      ]
+    },
+    {
+      "evidence_id": "E25",
+      "kind": "chunk",
+      "summary": "Analyst, Firm E (analyst): Inventory is down year over year. Are you at risk of being under-assorted in discretionary for holiday, and how are markdowns trending?\nChief Financial Officer (management): Inventory is clean and in a good position. We expect markdown pressure to moderate as we enter the holiday season.",
+      "citation": {
+        "citation_id": "E25",
+        "chunk_id": "3bd3e0d3b0838347",
+        "accession": "FIXTURE-TGT-CALL-Q2FY2025",
+        "form_type": "TRANSCRIPT",
+        "company": "Target Corporation",
+        "ticker": "TGT",
+        "fiscal_period": "Q2 FY2025",
+        "item": "Q&A",
+        "page": null,
+        "filed_date": "2025-08-20",
+        "source_url": null,
+        "is_synthetic": true,
+        "quote": "Analyst, Firm E (analyst): Inventory is down year over year. Are you at risk of being under-assorted in discretionary for holiday, and how are markdowns trending?\nChief Financial Officer (management): Inventory is clean and in a good position. We expect markdown pressure to moderate as we enter the "
+      },
+      "values": {},
+      "derived_from": [
+        "FIXTURE-TGT-CALL-Q2FY2025"
+      ]
+    },
+    {
+      "evidence_id": "E26",
+      "kind": "chunk",
+      "summary": "The Board of Directors approved a chief executive officer succession plan under which the current Chief Operating Officer will become Chief Executive Officer effective at the start of the next fiscal year and the current Chief Executive Officer will transition to the role of Executive Chair.",
+      "citation": {
+        "citation_id": "E26",
+        "chunk_id": "7cfcf4a9e32cbadc",
+        "accession": "FIXTURE-TGT-8K-20250820",
+        "form_type": "8-K",
+        "company": "Target Corporation",
+        "ticker": "TGT",
+        "fiscal_period": "Q2 FY2025",
+        "item": "5.02",
+        "page": 1,
+        "filed_date": "2025-08-20",
+        "source_url": null,
+        "is_synthetic": true,
+        "quote": "The Board of Directors approved a chief executive officer succession plan under which the current Chief Operating Officer will become Chief Executive Officer effective at the start of the next fiscal year and the current Chief Executive Officer will transition to the role of Executive Chair."
+      },
+      "values": {},
+      "derived_from": [
+        "FIXTURE-TGT-8K-20250820"
+      ]
+    },
+    {
+      "evidence_id": "E27",
+      "kind": "chunk",
+      "summary": "Our long-term target is EBIT-based leverage consistent with those ratings.",
+      "citation": {
+        "citation_id": "E27",
+        "chunk_id": "8b69a9560edc2850",
+        "accession": "FIXTURE-TGT-10K-FY2024",
+        "form_type": "10-K",
+        "company": "Target Corporation",
+        "ticker": "TGT",
+        "fiscal_period": "FY2024",
+        "item": "7",
+        "page": 3,
+        "filed_date": "2025-03-12",
+        "source_url": null,
+        "is_synthetic": true,
+        "quote": "Our long-term target is EBIT-based leverage consistent with those ratings."
+      },
+      "values": {},
+      "derived_from": [
+        "FIXTURE-TGT-10K-FY2024"
+      ]
+    },
+    {
+      "evidence_id": "E28",
+      "kind": "chunk",
+      "summary": "Chief Financial Officer: Comparable sales declined 1.9 percent. Gross margin was pressured by markdowns and tariff-related costs. Our balance sheet remains strong, we ended the quarter with healthy liquidity, and we remain committed to our middle-A ratings and to paying and growing our dividend. We did not repurchase shares in the quarter.",
+      "citation": {
+        "citation_id": "E28",
+        "chunk_id": "e5f3f225ed0374b6",
+        "accession": "FIXTURE-TGT-CALL-Q2FY2025",
+        "form_type": "TRANSCRIPT",
+        "company": "Target Corporation",
+        "ticker": "TGT",
+        "fiscal_period": "Q2 FY2025",
+        "item": "PREPARED_REMARKS",
+        "page": null,
+        "filed_date": "2025-08-20",
+        "source_url": null,
+        "is_synthetic": true,
+        "quote": "Chief Financial Officer: Comparable sales declined 1.9 percent. Gross margin was pressured by markdowns and tariff-related costs. Our balance sheet remains strong, we ended the quarter with healthy liquidity, and we remain committed to our middle-A ratings and to paying and growing our dividend. We "
+      },
+      "values": {},
+      "derived_from": [
+        "FIXTURE-TGT-CALL-Q2FY2025"
+      ]
+    },
+    {
+      "evidence_id": "E29",
+      "kind": "chunk",
+      "summary": "Our capital allocation priorities are, in order: investing in our business through capital expenditures, supporting the dividend, and returning excess cash through share repurchases over time while maintaining strong investment-grade ratings.",
+      "citation": {
+        "citation_id": "E29",
+        "chunk_id": "4b30b7b71c8f3636",
+        "accession": "FIXTURE-TGT-10K-FY2024",
+        "form_type": "10-K",
+        "company": "Target Corporation",
+        "ticker": "TGT",
+        "fiscal_period": "FY2024",
+        "item": "7",
+        "page": 3,
+        "filed_date": "2025-03-12",
+        "source_url": null,
+        "is_synthetic": true,
+        "quote": "Our capital allocation priorities are, in order: investing in our business through capital expenditures, supporting the dividend, and returning excess cash through share repurchases over time while maintaining strong investment-grade ratings."
+      },
+      "values": {},
+      "derived_from": [
+        "FIXTURE-TGT-10K-FY2024"
+      ]
+    },
+    {
+      "evidence_id": "E30",
+      "kind": "chunk",
+      "summary": "Analyst, Firm C (analyst): With the stock at these levels and the balance sheet where it is, why not lean into buybacks? How do you think about repurchases versus protecting the rating?\nChief Financial Officer (management): Our priorities remain investing in the business first, then the dividend, then share repurchases over time. We will return to buybacks when we are confident in the trajectory and consistent with our ratings commitment.",
+      "citation": {
+        "citation_id": "E30",
+        "chunk_id": "26a24cd996fc745f",
+        "accession": "FIXTURE-TGT-CALL-Q2FY2025",
+        "form_type": "TRANSCRIPT",
+        "company": "Target Corporation",
+        "ticker": "TGT",
+        "fiscal_period": "Q2 FY2025",
+        "item": "Q&A",
+        "page": null,
+        "filed_date": "2025-08-20",
+        "source_url": null,
+        "is_synthetic": true,
+        "quote": "Analyst, Firm C (analyst): With the stock at these levels and the balance sheet where it is, why not lean into buybacks? How do you think about repurchases versus protecting the rating?\nChief Financial Officer (management): Our priorities remain investing in the business first, then the dividend, th"
+      },
+      "values": {},
+      "derived_from": [
+        "FIXTURE-TGT-CALL-Q2FY2025"
+      ]
+    },
+    {
+      "evidence_id": "E31",
+      "kind": "chunk",
+      "summary": "Management outlined an enterprise acceleration office focused on speed, technology and merchandising authority, and reiterated its commitment to the dividend and to strong investment-grade ratings.",
+      "citation": {
+        "citation_id": "E31",
+        "chunk_id": "8f8eb235841c5804",
+        "accession": "FIXTURE-TGT-8K-20250820",
+        "form_type": "8-K",
+        "company": "Target Corporation",
+        "ticker": "TGT",
+        "fiscal_period": "Q2 FY2025",
+        "item": "7.01",
+        "page": 1,
+        "filed_date": "2025-08-20",
+        "source_url": null,
+        "is_synthetic": true,
+        "quote": "Management outlined an enterprise acceleration office focused on speed, technology and merchandising authority, and reiterated its commitment to the dividend and to strong investment-grade ratings."
+      },
+      "values": {},
+      "derived_from": [
+        "FIXTURE-TGT-8K-20250820"
+      ]
+    },
+    {
+      "evidence_id": "E32",
+      "kind": "chunk",
+      "summary": "We did not repurchase shares during the quarter. As of quarter end, approximately $8.8 billion remained available under the share repurchase program authorized by our Board.",
+      "citation": {
+        "citation_id": "E32",
+        "chunk_id": "d4b961954cba955e",
+        "accession": "FIXTURE-TGT-10Q-Q2FY2025",
+        "form_type": "10-Q",
+        "company": "Target Corporation",
+        "ticker": "TGT",
+        "fiscal_period": "Q2 FY2025",
+        "item": "I-2",
+        "page": 2,
+        "filed_date": "2025-08-27",
+        "source_url": null,
+        "is_synthetic": true,
+        "quote": "We did not repurchase shares during the quarter. As of quarter end, approximately $8.8 billion remained available under the share repurchase program authorized by our Board."
+      },
+      "values": {},
+      "derived_from": [
+        "FIXTURE-TGT-10Q-Q2FY2025"
+      ]
+    },
+    {
+      "evidence_id": "E33",
+      "kind": "chunk",
+      "summary": "We returned cash to shareholders through dividends of approximately $2.0 billion and share repurchases of approximately $1.0 billion, and we remained committed to maintaining our middle-A credit ratings. Selected Consolidated Financial Data (in millions, except per share data)",
+      "citation": {
+        "citation_id": "E33",
+        "chunk_id": "d0567eb50deefc51",
+        "accession": "FIXTURE-TGT-10K-FY2024",
+        "form_type": "10-K",
+        "company": "Target Corporation",
+        "ticker": "TGT",
+        "fiscal_period": "FY2024",
+        "item": "7",
+        "page": 3,
+        "filed_date": "2025-03-12",
+        "source_url": null,
+        "is_synthetic": true,
+        "quote": "We returned cash to shareholders through dividends of approximately $2.0 billion and share repurchases of approximately $1.0 billion, and we remained committed to maintaining our middle-A credit ratings. Selected Consolidated Financial Data (in millions, except per share data)"
+      },
+      "values": {},
+      "derived_from": [
+        "FIXTURE-TGT-10K-FY2024"
+      ]
+    },
+    {
+      "evidence_id": "E34",
+      "kind": "chunk",
+      "summary": "Analyst, Firm A (analyst): Can you quantify the tariff exposure for the back half and how much you expect to offset through pricing versus vendor cost sharing?\nChief Financial Officer (management): Tariffs are a headwind we are managing through sourcing diversification, vendor negotiations and selective pricing. We are not going to give a specific number today, but it is embedded in our guidance range.",
+      "citation": {
+        "citation_id": "E34",
+        "chunk_id": "5575dec6fee44f9d",
+        "accession": "FIXTURE-TGT-CALL-Q2FY2025",
+        "form_type": "TRANSCRIPT",
+        "company": "Target Corporation",
+        "ticker": "TGT",
+        "fiscal_period": "Q2 FY2025",
+        "item": "Q&A",
+        "page": null,
+        "filed_date": "2025-08-20",
+        "source_url": null,
+        "is_synthetic": true,
+        "quote": "Analyst, Firm A (analyst): Can you quantify the tariff exposure for the back half and how much you expect to offset through pricing versus vendor cost sharing?\nChief Financial Officer (management): Tariffs are a headwind we are managing through sourcing diversification, vendor negotiations and selec"
+      },
+      "values": {},
+      "derived_from": [
+        "FIXTURE-TGT-CALL-Q2FY2025"
+      ]
+    },
+    {
+      "evidence_id": "E35",
+      "kind": "chunk",
+      "summary": "Analyst, Firm D (analyst): On the CEO transition, what changes should investors expect in strategy and timeline, and is there any change to the long-term operating margin target?\nChief Executive Officer (management): The transition is about accelerating execution. The strategy is intact. We will share more about our multi-year plan at a future investor event.",
+      "citation": {
+        "citation_id": "E35",
+        "chunk_id": "0ee2dd90357283ad",
+        "accession": "FIXTURE-TGT-CALL-Q2FY2025",
+        "form_type": "TRANSCRIPT",
+        "company": "Target Corporation",
+        "ticker": "TGT",
+        "fiscal_period": "Q2 FY2025",
+        "item": "Q&A",
+        "page": null,
+        "filed_date": "2025-08-20",
+        "source_url": null,
+        "is_synthetic": true,
+        "quote": "Analyst, Firm D (analyst): On the CEO transition, what changes should investors expect in strategy and timeline, and is there any change to the long-term operating margin target?\nChief Executive Officer (management): The transition is about accelerating execution. The strategy is intact. We will sha"
+      },
+      "values": {},
+      "derived_from": [
+        "FIXTURE-TGT-CALL-Q2FY2025"
+      ]
+    },
+    {
+      "evidence_id": "E36",
+      "kind": "metric",
+      "summary": "Investor-concern severity model (analyst questions, risk-factor intensity and change vs prior 10-K, rotation pressure): discretionary_demand severity 0.91, 2 questions; leadership_transition severity 0.75, 1 questions; brand_reputation severity 0.63, 1 questions; tariffs_trade severity 0.51, 1 questions; inventory_markdowns severity 0.51, 1 questions; competition_pricing severity 0.35, 1 questions; shrink_theft severity 0.33, 0 questions; capital_return severity 0.17, 1 questions",
+      "citation": null,
+      "values": {
+        "discretionary_demand_severity": 0.91,
+        "leadership_transition_severity": 0.751,
+        "brand_reputation_severity": 0.626,
+        "tariffs_trade_severity": 0.512,
+        "inventory_markdowns_severity": 0.508,
+        "competition_pricing_severity": 0.351,
+        "shrink_theft_severity": 0.333,
+        "capital_return_severity": 0.175,
+        "discretionary_demand_questions": 2.0,
+        "leadership_transition_questions": 1.0,
+        "brand_reputation_questions": 1.0,
+        "tariffs_trade_questions": 1.0,
+        "inventory_markdowns_questions": 1.0,
+        "competition_pricing_questions": 1.0,
+        "shrink_theft_questions": 0.0,
+        "capital_return_questions": 1.0
+      },
+      "derived_from": [
+        "FIXTURE-TGT-10K-FY2024",
+        "FIXTURE-TGT-8K-20250820",
+        "FIXTURE-TGT-CALL-Q2FY2025"
+      ]
+    },
+    {
+      "evidence_id": "E37",
+      "kind": "metric",
+      "summary": "WACC curve: current debt/capital 28.0% at WACC 7.87%; optimum within the A rating floor is 30.0% (A) at WACC 7.84%; incremental capacity $1.13bn.",
+      "citation": null,
+      "values": {
+        "current_debt_to_capital": 0.28018984004218667,
+        "current_wacc": 0.07872363332747408,
+        "optimal_debt_to_capital": 0.3,
+        "optimal_wacc": 0.07841622129288346,
+        "incremental_debt_capacity_usd": 1127000000.0,
+        "rating_floor": "A",
+        "risk_free_rate": 0.0405,
+        "peer_net_debt_to_ebitda_median": 1.3499655215042063,
+        "net_debt_to_ebitda": 1.3078273078273077
+      },
+      "derived_from": [
+        "FIXTURE-TGT-10K-FY2024",
+        "fixture"
+      ]
+    },
+    {
+      "evidence_id": "E38",
+      "kind": "insider",
+      "summary": "Insider activity (120d): 4 open-market buys by 4 insiders ($1.92m), 0 sells; cluster buy=True; signal bullish (1.0).",
+      "citation": null,
+      "values": {
+        "buys": 4.0,
+        "distinct_buyers": 4.0,
+        "buy_value_usd": 1924935.0,
+        "sell_value_usd": 0.0,
+        "cluster_buy": "True",
+        "score": 1.0
+      },
+      "derived_from": [
+        "FIXTURE-F4-TGT-000",
+        "FIXTURE-F4-TGT-001",
+        "FIXTURE-F4-TGT-002",
+        "FIXTURE-F4-TGT-003",
+        "FIXTURE-F4-TGT-004",
+        "FIXTURE-F4-TGT-005"
+      ]
+    },
+    {
+      "evidence_id": "E39",
+      "kind": "metric",
+      "summary": "Capital return model: EV/EBITDA discount 60.1% vs peers, FCF yield 10.9% (9.1% after the consensus EPS revision), implied buyback return 11.1% (with 2.0% long-run growth) vs cost of equity 9.6%; annual capacity $4.31bn; mix buyback $4.09bn, special dividend $0.00bn, dividend growth $0.22bn.",
+      "citation": null,
+      "values": {
+        "valuation_discount": 0.6009163904017422,
+        "fcf_yield": 0.1093040293040293,
+        "normalized_fcf_yield": 0.0906754644903629,
+        "long_term_growth": 0.02,
+        "buyback_irr_proxy": 0.1106754644903629,
+        "cost_of_equity": 0.0955,
+        "annual_capacity_usd": 4308840000.0,
+        "mix_buyback": 4086000000.0,
+        "mix_special_dividend": 0.0,
+        "mix_regular_dividend_growth": 222000000.0
+      },
+      "derived_from": [
+        "FIXTURE-COST-10K-FY2024",
+        "FIXTURE-DG-10K-FY2024",
+        "FIXTURE-KR-10K-FY2024",
+        "FIXTURE-TGT-10K-FY2024",
+        "FIXTURE-WMT-10K-FY2025",
+        "fixture"
+      ]
+    },
+    {
+      "evidence_id": "E40",
+      "kind": "graph",
+      "summary": "Activist vulnerability TGT: 61.7/100 (high); drivers: EV/EBITDA discount to peers, 1-year TSR lagging peers, leadership transition disclosed, activist/hedge-fund presence in a dispersed register; activists on register: Granite Harbor Activist Partners (synthetic). Peer scores: WMT 14.0, COST 25.3, DG 28.7, KR 26.3.",
+      "citation": null,
+      "values": {
+        "score": 61.7,
+        "c_valuation_discount": 1.0,
+        "c_tsr_underperformance": 1.0,
+        "c_working_capital_gap": 0.384,
+        "c_yield_and_payout_gap": 0.0,
+        "c_balance_sheet_slack": 0.028,
+        "c_margin_gap": 0.0,
+        "c_register_vulnerability": 0.54,
+        "c_governance_transition": 1.0,
+        "peer_WMT": 14.0,
+        "peer_COST": 25.3,
+        "peer_DG": 28.7,
+        "peer_KR": 26.3
+      },
+      "derived_from": [
+        "FIXTURE-13F-001-20250630",
+        "FIXTURE-13F-002-20250630",
+        "FIXTURE-13F-003-20250630",
+        "FIXTURE-13F-004-20250630",
+        "FIXTURE-13F-005-20250630",
+        "FIXTURE-13F-006-20250630",
+        "FIXTURE-13F-007-20250630",
+        "FIXTURE-13F-008-20250630",
+        "FIXTURE-13F-009-20250630",
+        "FIXTURE-13F-010-20250630",
+        "FIXTURE-13F-011-20250630",
+        "FIXTURE-13F-012-20250630"
+      ]
+    },
+    {
+      "evidence_id": "E41",
+      "kind": "ownership",
+      "summary": "Capital rotation out of TGT: 4 funds rotated ~$0.89bn into COST, DG, KR, WMT; largest: Halcyon Ridge Capital (synthetic) → COST $0.26bn; Summit Growth Partners (synthetic) → WMT $0.17bn; Halcyon Ridge Capital (synthetic) → WMT $0.16bn.",
+      "citation": null,
+      "values": {
+        "total_rotation_usd": 892323510.6694295,
+        "Halcyon Ridge Capital (s->COST": 262147347.75910863,
+        "Summit Growth Partners (->WMT": 170789086.31593752,
+        "Halcyon Ridge Capital (s->WMT": 155923162.91032097,
+        "Summit Growth Partners (->COST": 143570413.68406248,
+        "Vector Quant Strategies ->DG": 97826478.11320363,
+        "Vector Quant Strategies ->KR": 36899021.88679637
+      },
+      "derived_from": [
+        "FIXTURE-13F-001-20250331",
+        "FIXTURE-13F-001-20250630",
+        "FIXTURE-13F-002-20250331",
+        "FIXTURE-13F-002-20250630",
+        "FIXTURE-13F-003-20250331",
+        "FIXTURE-13F-003-20250630",
+        "FIXTURE-13F-004-20250331",
+        "FIXTURE-13F-004-20250630",
+        "FIXTURE-13F-005-20250331",
+        "FIXTURE-13F-005-20250630",
+        "FIXTURE-13F-006-20250331",
+        "FIXTURE-13F-006-20250630"
+      ]
+    },
+    {
+      "evidence_id": "E42",
+      "kind": "chunk",
+      "summary": "NEWS (SYNTHETIC, low authority): Market chatter suggests Target could pursue a large debt-funded acquisition; the company has not commented. Unnamed sources said the retailer may also cut its dividend, which the company has publicly committed to maintaining.",
+      "citation": {
+        "citation_id": "E42",
+        "chunk_id": "6ee2ec7a30c1c67e",
+        "accession": "FIXTURE-TGT-NEWS-20250915",
+        "form_type": "NEWS",
+        "company": "Target Corporation",
+        "ticker": "TGT",
+        "fiscal_period": "Q3 FY2025",
+        "item": "PREAMBLE",
+        "page": 1,
+        "filed_date": "2025-09-15",
+        "source_url": null,
+        "is_synthetic": true,
+        "quote": "NEWS (SYNTHETIC, low authority): Market chatter suggests Target could pursue a large debt-funded acquisition; the company has not commented. Unnamed sources said the retailer may also cut its dividend, which the company has publicly committed to maintaining."
+      },
+      "values": {},
+      "derived_from": [
+        "FIXTURE-TGT-NEWS-20250915"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "citation_id": "E15",
+      "chunk_id": "4b71c2546de621d1",
+      "accession": "FIXTURE-TGT-10K-FY2024",
+      "form_type": "10-K",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "fiscal_period": "FY2024",
+      "item": "1A",
+      "page": 2,
+      "filed_date": "2025-03-12",
+      "source_url": null,
+      "is_synthetic": true,
+      "quote": "Our results depend on discretionary consumer demand. A significant share of our sales mix is in discretionary categories such as home, apparel and hardlines, and continued pressure on consumer budgets from elevated prices and interest rates reduced traffic and comparable sales during the year. Prolo"
+    },
+    {
+      "citation_id": "E17",
+      "chunk_id": "a515c787c78bc3d9",
+      "accession": "FIXTURE-TGT-10K-FY2024",
+      "form_type": "10-K",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "fiscal_period": "FY2024",
+      "item": "1A",
+      "page": 2,
+      "filed_date": "2025-03-12",
+      "source_url": null,
+      "is_synthetic": true,
+      "quote": "Changes in trade policy, including tariffs on imported merchandise, could increase our costs. A meaningful portion of our owned-brand and national-brand assortment is sourced from outside the United States. New or increased tariffs may raise product costs, and we may be unable to fully offset them t"
+    },
+    {
+      "citation_id": "E19",
+      "chunk_id": "32f496cb0987d683",
+      "accession": "FIXTURE-TGT-10K-FY2024",
+      "form_type": "10-K",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "fiscal_period": "FY2024",
+      "item": "1A",
+      "page": 2,
+      "filed_date": "2025-03-12",
+      "source_url": null,
+      "is_synthetic": true,
+      "quote": "Our brand and reputation may be harmed by public reaction to our positions, merchandise decisions or business practices. Customer and advocacy-group responses, including calls for boycotts and negative social media attention, have in the past and could in the future reduce guest traffic and sales."
+    },
+    {
+      "citation_id": "E20",
+      "chunk_id": "4e327a975d6667dd",
+      "accession": "FIXTURE-TGT-CALL-Q2FY2025",
+      "form_type": "TRANSCRIPT",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "fiscal_period": "Q2 FY2025",
+      "item": "Q&A",
+      "page": null,
+      "filed_date": "2025-08-20",
+      "source_url": null,
+      "is_synthetic": true,
+      "quote": "Analyst, Firm B (analyst): Traffic has been negative for several quarters. How much of that is the broader discretionary environment versus brand perception issues and the boycott earlier this year?\nChief Executive Officer (management): We are listening to our guests. Some of the pressure is macro a"
+    },
+    {
+      "citation_id": "E24",
+      "chunk_id": "a62c87e135682050",
+      "accession": "FIXTURE-TGT-10K-FY2024",
+      "form_type": "10-K",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "fiscal_period": "FY2024",
+      "item": "1A",
+      "page": 2,
+      "filed_date": "2025-03-12",
+      "source_url": null,
+      "is_synthetic": true,
+      "quote": "Competitors with greater scale may be able to absorb cost increases more effectively. A failure to manage inventory levels and assortment, including excess discretionary inventory, could require markdowns that lower our gross margin rate. We rely on information systems and could be subject to a sign"
+    },
+    {
+      "citation_id": "E25",
+      "chunk_id": "3bd3e0d3b0838347",
+      "accession": "FIXTURE-TGT-CALL-Q2FY2025",
+      "form_type": "TRANSCRIPT",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "fiscal_period": "Q2 FY2025",
+      "item": "Q&A",
+      "page": null,
+      "filed_date": "2025-08-20",
+      "source_url": null,
+      "is_synthetic": true,
+      "quote": "Analyst, Firm E (analyst): Inventory is down year over year. Are you at risk of being under-assorted in discretionary for holiday, and how are markdowns trending?\nChief Financial Officer (management): Inventory is clean and in a good position. We expect markdown pressure to moderate as we enter the "
+    },
+    {
+      "citation_id": "E26",
+      "chunk_id": "7cfcf4a9e32cbadc",
+      "accession": "FIXTURE-TGT-8K-20250820",
+      "form_type": "8-K",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "fiscal_period": "Q2 FY2025",
+      "item": "5.02",
+      "page": 1,
+      "filed_date": "2025-08-20",
+      "source_url": null,
+      "is_synthetic": true,
+      "quote": "The Board of Directors approved a chief executive officer succession plan under which the current Chief Operating Officer will become Chief Executive Officer effective at the start of the next fiscal year and the current Chief Executive Officer will transition to the role of Executive Chair."
+    },
+    {
+      "citation_id": "E28",
+      "chunk_id": "e5f3f225ed0374b6",
+      "accession": "FIXTURE-TGT-CALL-Q2FY2025",
+      "form_type": "TRANSCRIPT",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "fiscal_period": "Q2 FY2025",
+      "item": "PREPARED_REMARKS",
+      "page": null,
+      "filed_date": "2025-08-20",
+      "source_url": null,
+      "is_synthetic": true,
+      "quote": "Chief Financial Officer: Comparable sales declined 1.9 percent. Gross margin was pressured by markdowns and tariff-related costs. Our balance sheet remains strong, we ended the quarter with healthy liquidity, and we remain committed to our middle-A ratings and to paying and growing our dividend. We "
+    },
+    {
+      "citation_id": "E30",
+      "chunk_id": "26a24cd996fc745f",
+      "accession": "FIXTURE-TGT-CALL-Q2FY2025",
+      "form_type": "TRANSCRIPT",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "fiscal_period": "Q2 FY2025",
+      "item": "Q&A",
+      "page": null,
+      "filed_date": "2025-08-20",
+      "source_url": null,
+      "is_synthetic": true,
+      "quote": "Analyst, Firm C (analyst): With the stock at these levels and the balance sheet where it is, why not lean into buybacks? How do you think about repurchases versus protecting the rating?\nChief Financial Officer (management): Our priorities remain investing in the business first, then the dividend, th"
+    },
+    {
+      "citation_id": "E31",
+      "chunk_id": "8f8eb235841c5804",
+      "accession": "FIXTURE-TGT-8K-20250820",
+      "form_type": "8-K",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "fiscal_period": "Q2 FY2025",
+      "item": "7.01",
+      "page": 1,
+      "filed_date": "2025-08-20",
+      "source_url": null,
+      "is_synthetic": true,
+      "quote": "Management outlined an enterprise acceleration office focused on speed, technology and merchandising authority, and reiterated its commitment to the dividend and to strong investment-grade ratings."
+    },
+    {
+      "citation_id": "E32",
+      "chunk_id": "d4b961954cba955e",
+      "accession": "FIXTURE-TGT-10Q-Q2FY2025",
+      "form_type": "10-Q",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "fiscal_period": "Q2 FY2025",
+      "item": "I-2",
+      "page": 2,
+      "filed_date": "2025-08-27",
+      "source_url": null,
+      "is_synthetic": true,
+      "quote": "We did not repurchase shares during the quarter. As of quarter end, approximately $8.8 billion remained available under the share repurchase program authorized by our Board."
+    },
+    {
+      "citation_id": "E34",
+      "chunk_id": "5575dec6fee44f9d",
+      "accession": "FIXTURE-TGT-CALL-Q2FY2025",
+      "form_type": "TRANSCRIPT",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "fiscal_period": "Q2 FY2025",
+      "item": "Q&A",
+      "page": null,
+      "filed_date": "2025-08-20",
+      "source_url": null,
+      "is_synthetic": true,
+      "quote": "Analyst, Firm A (analyst): Can you quantify the tariff exposure for the back half and how much you expect to offset through pricing versus vendor cost sharing?\nChief Financial Officer (management): Tariffs are a headwind we are managing through sourcing diversification, vendor negotiations and selec"
+    },
+    {
+      "citation_id": "E35",
+      "chunk_id": "0ee2dd90357283ad",
+      "accession": "FIXTURE-TGT-CALL-Q2FY2025",
+      "form_type": "TRANSCRIPT",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "fiscal_period": "Q2 FY2025",
+      "item": "Q&A",
+      "page": null,
+      "filed_date": "2025-08-20",
+      "source_url": null,
+      "is_synthetic": true,
+      "quote": "Analyst, Firm D (analyst): On the CEO transition, what changes should investors expect in strategy and timeline, and is there any change to the long-term operating margin target?\nChief Executive Officer (management): The transition is about accelerating execution. The strategy is intact. We will sha"
+    },
+    {
+      "citation_id": "E42",
+      "chunk_id": "6ee2ec7a30c1c67e",
+      "accession": "FIXTURE-TGT-NEWS-20250915",
+      "form_type": "NEWS",
+      "company": "Target Corporation",
+      "ticker": "TGT",
+      "fiscal_period": "Q3 FY2025",
+      "item": "PREAMBLE",
+      "page": 1,
+      "filed_date": "2025-09-15",
+      "source_url": null,
+      "is_synthetic": true,
+      "quote": "NEWS (SYNTHETIC, low authority): Market chatter suggests Target could pursue a large debt-funded acquisition; the company has not commented. Unnamed sources said the retailer may also cut its dividend, which the company has publicly committed to maintaining."
+    }
+  ],
+  "grounding": {
+    "sentences": 24,
+    "factual_sentences": 23,
+    "cited_sentences": 23,
+    "grounding_rate": 1.0,
+    "unknown_evidence_ids": [],
+    "unsupported_numbers": [],
+    "uncited_factual": [],
+    "removed": [],
+    "net_flows_by_institution_type_usd": [
+      "active_manager: -763m",
+      "activist: 539m",
+      "hedge_fund: -1,212m",
+      "index_manager: 135m",
+      "pension: 0m",
+      "sovereign: 0m"
+    ]
+  },
+  "narrative_engine": "deterministic",
+  "data_disclaimer": "Offline fixture data: issuer identifiers are real, fundamentals and prices are approximations of public figures, and all institutions, 13F positions, insider trades, filing excerpts and transcripts are synthetic (accessions prefixed FIXTURE-). Not investment advice; refresh with --live before use.",
+  "llm_trace": [
+    "LLM disabled or no Anthropic credentials; deterministic narrative"
+  ]
+}

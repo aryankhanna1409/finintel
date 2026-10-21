@@ -1,0 +1,398 @@
+{
+ "issuers": [
+  {
+   "cik": "27419",
+   "name": "Target Corporation",
+   "tickers": [
+    "TGT"
+   ],
+   "sic": "5331",
+   "sector": "Consumer Staples",
+   "industry": "Broadline Retail",
+   "fiscal_year_end": "0201",
+   "aliases": [
+    "Target Corp",
+    "TARGET CORP"
+   ]
+  },
+  {
+   "cik": "104169",
+   "name": "Walmart Inc.",
+   "tickers": [
+    "WMT"
+   ],
+   "sic": "5331",
+   "sector": "Consumer Staples",
+   "industry": "Broadline Retail",
+   "fiscal_year_end": "0131",
+   "aliases": [
+    "Wal-Mart Stores, Inc.",
+    "WALMART INC"
+   ]
+  },
+  {
+   "cik": "909832",
+   "name": "Costco Wholesale Corporation",
+   "tickers": [
+    "COST"
+   ],
+   "sic": "5331",
+   "sector": "Consumer Staples",
+   "industry": "Warehouse Clubs",
+   "fiscal_year_end": "0901",
+   "aliases": [
+    "COSTCO WHSL CORP NEW",
+    "Costco"
+   ]
+  },
+  {
+   "cik": "29534",
+   "name": "Dollar General Corporation",
+   "tickers": [
+    "DG"
+   ],
+   "sic": "5331",
+   "sector": "Consumer Staples",
+   "industry": "Discount Stores",
+   "fiscal_year_end": "0131",
+   "aliases": [
+    "DOLLAR GEN CORP NEW",
+    "Dollar General"
+   ]
+  },
+  {
+   "cik": "56873",
+   "name": "The Kroger Co.",
+   "tickers": [
+    "KR"
+   ],
+   "sic": "5411",
+   "sector": "Consumer Staples",
+   "industry": "Grocery",
+   "fiscal_year_end": "0201",
+   "aliases": [
+    "KROGER CO",
+    "Kroger"
+   ]
+  },
+  {
+   "cik": "80424",
+   "name": "The Procter & Gamble Company",
+   "tickers": [
+    "PG"
+   ],
+   "sic": "2840",
+   "sector": "Consumer Staples",
+   "industry": "Household Products",
+   "fiscal_year_end": "0630",
+   "aliases": [
+    "PROCTER AND GAMBLE CO",
+    "P&G"
+   ]
+  },
+  {
+   "cik": "77476",
+   "name": "PepsiCo, Inc.",
+   "tickers": [
+    "PEP"
+   ],
+   "sic": "2080",
+   "sector": "Consumer Staples",
+   "industry": "Beverages",
+   "fiscal_year_end": "1231",
+   "aliases": [
+    "PEPSICO INC"
+   ]
+  },
+  {
+   "cik": "55785",
+   "name": "Kimberly-Clark Corporation",
+   "tickers": [
+    "KMB"
+   ],
+   "sic": "2670",
+   "sector": "Consumer Staples",
+   "industry": "Household Products",
+   "fiscal_year_end": "1231",
+   "aliases": [
+    "KIMBERLY CLARK CORP"
+   ]
+  }
+ ],
+ "securities": [
+  {
+   "cusip": "87612E106",
+   "ticker": "TGT",
+   "issuer_cik": "27419",
+   "security_type": "common_equity",
+   "description": "Target Corp common stock"
+  },
+  {
+   "cusip": "931142103",
+   "ticker": "WMT",
+   "issuer_cik": "104169",
+   "security_type": "common_equity",
+   "description": "Walmart Inc common stock"
+  },
+  {
+   "cusip": "22160K105",
+   "ticker": "COST",
+   "issuer_cik": "909832",
+   "security_type": "common_equity",
+   "description": "Costco Wholesale common stock"
+  },
+  {
+   "cusip": "256677105",
+   "ticker": "DG",
+   "issuer_cik": "29534",
+   "security_type": "common_equity",
+   "description": "Dollar General common stock"
+  },
+  {
+   "cusip": "501044101",
+   "ticker": "KR",
+   "issuer_cik": "56873",
+   "security_type": "common_equity",
+   "description": "Kroger common stock"
+  },
+  {
+   "cusip": "742718109",
+   "ticker": "PG",
+   "issuer_cik": "80424",
+   "security_type": "common_equity",
+   "description": "Procter & Gamble common stock"
+  },
+  {
+   "cusip": "713448108",
+   "ticker": "PEP",
+   "issuer_cik": "77476",
+   "security_type": "common_equity",
+   "description": "PepsiCo common stock"
+  },
+  {
+   "cusip": "494368103",
+   "ticker": "KMB",
+   "issuer_cik": "55785",
+   "security_type": "common_equity",
+   "description": "Kimberly-Clark common stock"
+  },
+  {
+   "cusip": "87612EBM7",
+   "ticker": null,
+   "issuer_cik": "27419",
+   "security_type": "senior_debt",
+   "description": "Target Corp 4.5% senior notes (illustrative CUSIP)"
+  }
+ ],
+ "institutions": [
+  {
+   "cik": "9900000001",
+   "name": "Meridian Index Advisors (synthetic)",
+   "institution_type": "index_manager",
+   "style": "index",
+   "aum_usd": 9000000000000.0
+  },
+  {
+   "cik": "9900000002",
+   "name": "Bluewater Passive Funds (synthetic)",
+   "institution_type": "index_manager",
+   "style": "index",
+   "aum_usd": 7500000000000.0
+  },
+  {
+   "cik": "9900000003",
+   "name": "Keystone Street Global (synthetic)",
+   "institution_type": "index_manager",
+   "style": "index",
+   "aum_usd": 4200000000000.0
+  },
+  {
+   "cik": "9900000004",
+   "name": "Lakeshore Fundamental Equity (synthetic)",
+   "institution_type": "active_manager",
+   "style": "value",
+   "aum_usd": 600000000000.0
+  },
+  {
+   "cik": "9900000005",
+   "name": "Summit Growth Partners (synthetic)",
+   "institution_type": "active_manager",
+   "style": "growth",
+   "aum_usd": 440000000000.0
+  },
+  {
+   "cik": "9900000006",
+   "name": "Halcyon Ridge Capital (synthetic)",
+   "institution_type": "hedge_fund",
+   "style": "long_short",
+   "aum_usd": 38000000000.0
+  },
+  {
+   "cik": "9900000007",
+   "name": "Vector Quant Strategies (synthetic)",
+   "institution_type": "hedge_fund",
+   "style": "quant",
+   "aum_usd": 61000000000.0
+  },
+  {
+   "cik": "9900000008",
+   "name": "Granite Harbor Activist Partners (synthetic)",
+   "institution_type": "activist",
+   "style": "activist",
+   "aum_usd": 19000000000.0,
+   "is_known_activist": true
+  },
+  {
+   "cik": "9900000009",
+   "name": "Pinecrest Teachers Retirement (synthetic)",
+   "institution_type": "pension",
+   "style": "blend",
+   "aum_usd": 310000000000.0
+  },
+  {
+   "cik": "9900000010",
+   "name": "Northgate Dividend Income (synthetic)",
+   "institution_type": "active_manager",
+   "style": "income",
+   "aum_usd": 120000000000.0
+  },
+  {
+   "cik": "9900000011",
+   "name": "Corvid Event-Driven Fund (synthetic)",
+   "institution_type": "hedge_fund",
+   "style": "event_driven",
+   "aum_usd": 14000000000.0
+  },
+  {
+   "cik": "9900000012",
+   "name": "Atlas Sovereign Wealth (synthetic)",
+   "institution_type": "sovereign",
+   "style": "blend",
+   "aum_usd": 1400000000000.0
+  }
+ ],
+ "competitors": [
+  {
+   "company_cik": "27419",
+   "peer_cik": "104169",
+   "strength": 1.0,
+   "basis": "disclosed"
+  },
+  {
+   "company_cik": "27419",
+   "peer_cik": "909832",
+   "strength": 0.8,
+   "basis": "disclosed"
+  },
+  {
+   "company_cik": "27419",
+   "peer_cik": "29534",
+   "strength": 0.7,
+   "basis": "disclosed"
+  },
+  {
+   "company_cik": "27419",
+   "peer_cik": "56873",
+   "strength": 0.6,
+   "basis": "disclosed"
+  },
+  {
+   "company_cik": "104169",
+   "peer_cik": "909832",
+   "strength": 0.9,
+   "basis": "disclosed"
+  },
+  {
+   "company_cik": "104169",
+   "peer_cik": "29534",
+   "strength": 0.7,
+   "basis": "disclosed"
+  },
+  {
+   "company_cik": "104169",
+   "peer_cik": "56873",
+   "strength": 0.8,
+   "basis": "disclosed"
+  },
+  {
+   "company_cik": "909832",
+   "peer_cik": "56873",
+   "strength": 0.5,
+   "basis": "disclosed"
+  },
+  {
+   "company_cik": "29534",
+   "peer_cik": "56873",
+   "strength": 0.4,
+   "basis": "disclosed"
+  }
+ ],
+ "suppliers": [
+  {
+   "supplier_cik": "80424",
+   "customer_cik": "104169",
+   "revenue_share_of_supplier": 0.15,
+   "note": "illustrative customer concentration"
+  },
+  {
+   "supplier_cik": "80424",
+   "customer_cik": "27419",
+   "revenue_share_of_supplier": 0.04,
+   "note": "illustrative customer concentration"
+  },
+  {
+   "supplier_cik": "80424",
+   "customer_cik": "909832",
+   "revenue_share_of_supplier": 0.04,
+   "note": "illustrative customer concentration"
+  },
+  {
+   "supplier_cik": "80424",
+   "customer_cik": "29534",
+   "revenue_share_of_supplier": 0.03,
+   "note": "illustrative customer concentration"
+  },
+  {
+   "supplier_cik": "80424",
+   "customer_cik": "56873",
+   "revenue_share_of_supplier": 0.03,
+   "note": "illustrative customer concentration"
+  },
+  {
+   "supplier_cik": "77476",
+   "customer_cik": "104169",
+   "revenue_share_of_supplier": 0.14,
+   "note": "illustrative customer concentration"
+  },
+  {
+   "supplier_cik": "77476",
+   "customer_cik": "56873",
+   "revenue_share_of_supplier": 0.04,
+   "note": "illustrative customer concentration"
+  },
+  {
+   "supplier_cik": "77476",
+   "customer_cik": "27419",
+   "revenue_share_of_supplier": 0.03,
+   "note": "illustrative customer concentration"
+  },
+  {
+   "supplier_cik": "55785",
+   "customer_cik": "104169",
+   "revenue_share_of_supplier": 0.14,
+   "note": "illustrative customer concentration"
+  },
+  {
+   "supplier_cik": "55785",
+   "customer_cik": "27419",
+   "revenue_share_of_supplier": 0.04,
+   "note": "illustrative customer concentration"
+  },
+  {
+   "supplier_cik": "55785",
+   "customer_cik": "909832",
+   "revenue_share_of_supplier": 0.03,
+   "note": "illustrative customer concentration"
+  }
+ ]
+}

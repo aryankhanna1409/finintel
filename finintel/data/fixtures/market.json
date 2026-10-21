@@ -1,0 +1,62 @@
+[
+ {
+  "ticker": "TGT",
+  "issuer_cik": "27419",
+  "as_of": "2025-10-15",
+  "price": 90.0,
+  "shares_outstanding": 455000000.0,
+  "dividend_per_share_annual": 4.56,
+  "beta": 1.1,
+  "return_1y": -0.38,
+  "return_3y": -0.36,
+  "credit_rating": "A"
+ },
+ {
+  "ticker": "WMT",
+  "issuer_cik": "104169",
+  "as_of": "2025-10-15",
+  "price": 103.0,
+  "shares_outstanding": 7975000000.0,
+  "dividend_per_share_annual": 0.94,
+  "beta": 0.65,
+  "return_1y": 0.28,
+  "return_3y": 1.25,
+  "credit_rating": "AA"
+ },
+ {
+  "ticker": "COST",
+  "issuer_cik": "909832",
+  "as_of": "2025-10-15",
+  "price": 935.0,
+  "shares_outstanding": 443500000.0,
+  "dividend_per_share_annual": 5.2,
+  "beta": 0.85,
+  "return_1y": 0.05,
+  "return_3y": 0.95,
+  "credit_rating": "A+"
+ },
+ {
+  "ticker": "DG",
+  "issuer_cik": "29534",
+  "as_of": "2025-10-15",
+  "price": 105.0,
+  "shares_outstanding": 220000000.0,
+  "dividend_per_share_annual": 2.36,
+  "beta": 0.45,
+  "return_1y": 0.3,
+  "return_3y": -0.52,
+  "credit_rating": "BBB"
+ },
+ {
+  "ticker": "KR",
+  "issuer_cik": "56873",
+  "as_of": "2025-10-15",
+  "price": 65.0,
+  "shares_outstanding": 662000000.0,
+  "dividend_per_share_annual": 1.4,
+  "beta": 0.45,
+  "return_1y": 0.18,
+  "return_3y": 0.55,
+  "credit_rating": "BBB"
+ }
+]
