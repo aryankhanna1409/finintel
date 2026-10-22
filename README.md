@@ -16,6 +16,16 @@
 
 ---
 
+<div align="center">
+
+![finintel demo](assets/demo.gif)
+
+<sub>Real CLI output on the repo's synthetic fixture data.</sub>
+
+</div>
+
+---
+
 An end-to-end system that ingests SEC filings, 13F holdings, Form 4 insider trades, XBRL fundamentals and earnings-call transcripts, indexes them for hybrid retrieval with strict citation lineage, builds a cross-company knowledge graph, and produces a grounded **Strategic Advisory Report** for a CFO benchmarking a target against 3–5 peers.
 
 The worked example is **Target (TGT)** against **Walmart, Costco, Dollar General and Kroger**, with Procter & Gamble, PepsiCo and Kimberly-Clark as shared suppliers.
