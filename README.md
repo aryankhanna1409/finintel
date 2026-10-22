@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📊 finintel
+<img src="assets/banner.svg" width="100%" alt="finintel: Financial RAG: filings to grounded, citation-backed advice" />
 
 **Financial Intelligence & RAG System: grounded, citation-backed advisory reports from SEC filings.**
 
