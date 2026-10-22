@@ -1,4 +1,20 @@
-# finintel: Financial Intelligence & RAG System
+<div align="center">
+
+# 📊 finintel
+
+**Financial Intelligence & RAG System: grounded, citation-backed advisory reports from SEC filings.**
+
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+![Tests](https://img.shields.io/badge/tests-64%20offline-brightgreen?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-hybrid%20%2B%20GraphRAG-8A2BE2?style=flat-square)
+![Claude](https://img.shields.io/badge/LLM-Claude%20agent-D97757?style=flat-square)
+
+[Architecture](#1-architecture) · [Ingestion](#2-ingestion-and-entity-resolution) · [Retrieval](#3-retrieval-hybrid-rag-with-citation-lineage) · [GraphRAG](#4-graphrag) · [Engine](#5-prescriptive-engine) · [LLM layer](#6-agentic-llm-layer-claude) · [Run it](#7-running-it) · [Data honesty](#8-data-honesty)
+
+</div>
+
+---
 
 An end-to-end system that ingests SEC filings, 13F holdings, Form 4 insider trades, XBRL fundamentals and earnings-call transcripts, indexes them for hybrid retrieval with strict citation lineage, builds a cross-company knowledge graph, and produces a grounded **Strategic Advisory Report** for a CFO benchmarking a target against 3–5 peers.
 
