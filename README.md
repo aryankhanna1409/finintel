@@ -1,18 +1,17 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="finintel: Financial RAG: filings to grounded, citation-backed advice" />
+<img src="assets/banner.svg" width="100%" alt="finintel: stop 3 of 5 in the loop, KNOW" />
 
 **Financial Intelligence & RAG System: grounded, citation-backed advisory reports from SEC filings.**
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
-![Tests](https://img.shields.io/badge/tests-64%20offline-brightgreen?style=flat-square)
-![RAG](https://img.shields.io/badge/RAG-hybrid%20%2B%20GraphRAG-8A2BE2?style=flat-square)
-![Claude](https://img.shields.io/badge/LLM-Claude%20agent-D97757?style=flat-square)
+
+![Python 3.10+](https://img.shields.io/badge/Python-3.10+-000000?style=flat-square&labelColor=ffffff) ![License MIT](https://img.shields.io/badge/License-MIT-000000?style=flat-square&labelColor=ffffff) ![tests 64 offline](https://img.shields.io/badge/tests-64_offline-000000?style=flat-square&labelColor=ffffff) ![RAG hybrid + GraphRAG](https://img.shields.io/badge/RAG-hybrid_+_GraphRAG-000000?style=flat-square&labelColor=ffffff) ![LLM Claude agent](https://img.shields.io/badge/LLM-Claude_agent-000000?style=flat-square&labelColor=ffffff)
 
 [Architecture](#1-architecture) · [Ingestion](#2-ingestion-and-entity-resolution) · [Retrieval](#3-retrieval-hybrid-rag-with-citation-lineage) · [GraphRAG](#4-graphrag) · [Engine](#5-prescriptive-engine) · [LLM layer](#6-agentic-llm-layer-claude) · [Run it](#7-running-it) · [Data honesty](#8-data-honesty)
 
 </div>
+
+> **Stop 3 of 5 · KNOW.** Seeing is not knowing. This stop retrieves evidence and will not answer without citing it. Previous: [sentinel](https://github.com/aryankhanna1409/sentinel). Next: [nexus](https://github.com/aryankhanna1409/nexus). See [the whole loop](https://github.com/aryankhanna1409).
 
 ---
 
@@ -194,3 +193,13 @@ The offline fixtures use **real** CIKs, tickers and CUSIPs. Fundamentals and pri
 ## 9. Tests
 
 `pytest` runs 64 tests covering entity resolution, every parser, retrieval quality and abstention, analytics and graph inference, the engine's grounding (100% of factual sentences cited, no unsupported numbers), the Claude agent loop against a fake client (tool calls, error results, refusal, step budget, merge rules), the CLI, and `LiveEdgarSource` end to end against a mocked network.
+
+---
+
+<div align="center">
+
+<img src="assets/loop.svg" width="100%" alt="finintel is one stop in a loop: move, see, know, act, ship" />
+
+<sub>Part of <a href="https://github.com/aryankhanna1409">Aryan Khanna's portfolio</a>: one loop, five stops, from robots to AI systems.</sub>
+
+</div>
