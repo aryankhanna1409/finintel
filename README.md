@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="finintel: stop 3 of 5 in the loop, KNOW" />
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg" /><img src="assets/banner.svg" width="100%" alt="finintel: stop 3 of 5 in the loop, KNOW" /></picture>
 
 **Financial Intelligence & RAG System: grounded, citation-backed advisory reports from SEC filings.**
 
@@ -198,7 +198,7 @@ The offline fixtures use **real** CIKs, tickers and CUSIPs. Fundamentals and pri
 
 <div align="center">
 
-<img src="assets/loop.svg" width="100%" alt="finintel is one pour in a loop: move, see, know, act, ship" />
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/loop-light.svg" /><img src="assets/loop.svg" width="100%" alt="finintel is one pour in a loop: move, see, know, act, ship" /></picture>
 
 <sub>Part of <a href="https://github.com/aryankhanna1409">Aryan Khanna's portfolio</a>: one loop, five pours, from robots to AI systems.</sub>
 
