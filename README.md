@@ -5,13 +5,13 @@
 **Financial Intelligence & RAG System: grounded, citation-backed advisory reports from SEC filings.**
 
 
-![Python 3.10+](https://img.shields.io/badge/Python-3.10+-000000?style=flat-square&labelColor=ffffff) ![License MIT](https://img.shields.io/badge/License-MIT-000000?style=flat-square&labelColor=ffffff) ![tests 64 offline](https://img.shields.io/badge/tests-64_offline-000000?style=flat-square&labelColor=ffffff) ![RAG hybrid + GraphRAG](https://img.shields.io/badge/RAG-hybrid_+_GraphRAG-000000?style=flat-square&labelColor=ffffff) ![LLM Claude agent](https://img.shields.io/badge/LLM-Claude_agent-000000?style=flat-square&labelColor=ffffff)
+![Python 3.10+](https://img.shields.io/badge/Python-3.10+-8a5a22?style=flat-square&labelColor=1d120b) ![License MIT](https://img.shields.io/badge/License-MIT-8a5a22?style=flat-square&labelColor=1d120b) ![tests 64 offline](https://img.shields.io/badge/tests-64_offline-8a5a22?style=flat-square&labelColor=1d120b) ![RAG hybrid + GraphRAG](https://img.shields.io/badge/RAG-hybrid_+_GraphRAG-8a5a22?style=flat-square&labelColor=1d120b) ![LLM Claude agent](https://img.shields.io/badge/LLM-Claude_agent-8a5a22?style=flat-square&labelColor=1d120b)
 
 [Architecture](#1-architecture) · [Ingestion](#2-ingestion-and-entity-resolution) · [Retrieval](#3-retrieval-hybrid-rag-with-citation-lineage) · [GraphRAG](#4-graphrag) · [Engine](#5-prescriptive-engine) · [LLM layer](#6-agentic-llm-layer-claude) · [Run it](#7-running-it) · [Data honesty](#8-data-honesty)
 
 </div>
 
-> **Stop 3 of 5 · KNOW.** Seeing is not knowing. This stop retrieves evidence and will not answer without citing it. Previous: [sentinel](https://github.com/aryankhanna1409/sentinel). Next: [nexus](https://github.com/aryankhanna1409/nexus). See [the whole loop](https://github.com/aryankhanna1409).
+> **Stop 3 of 5 · KNOW · the Steep.** Seeing is not knowing. This stop retrieves evidence and will not answer without citing it. Previous: [sentinel](https://github.com/aryankhanna1409/sentinel). Next: [nexus](https://github.com/aryankhanna1409/nexus). See [the whole loop](https://github.com/aryankhanna1409).
 
 ---
 
@@ -198,8 +198,8 @@ The offline fixtures use **real** CIKs, tickers and CUSIPs. Fundamentals and pri
 
 <div align="center">
 
-<img src="assets/loop.svg" width="100%" alt="finintel is one stop in a loop: move, see, know, act, ship" />
+<img src="assets/loop.svg" width="100%" alt="finintel is one pour in a loop: move, see, know, act, ship" />
 
-<sub>Part of <a href="https://github.com/aryankhanna1409">Aryan Khanna's portfolio</a>: one loop, five stops, from robots to AI systems.</sub>
+<sub>Part of <a href="https://github.com/aryankhanna1409">Aryan Khanna's portfolio</a>: one loop, five pours, from robots to AI systems.</sub>
 
 </div>
